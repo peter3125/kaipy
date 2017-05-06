@@ -1,0 +1,81 @@
+Dumpster,container
+bag,bags,container
+bank,banks,container
+basket,baskets,container
+bin,bins,container
+bowl,bowls,container
+box,boxes,container
+bread-bin,container
+breadbox,container
+bunker,bunkers,container
+can,cans,container
+canister,canisters,container
+cannister,cannisters,container
+capsule,capsules,container
+cargo container,container
+case,cases,container
+cassette,cassettes,container
+cast,casts,container
+circular file,container
+coal scuttle,container
+coin bank,container
+container,containers,container
+cup,cups,container
+cylinder,cylinders,container
+dice box,container
+dice cup,container
+dish,dishes,container
+dispenser,dispensers,container
+display case,container
+drawer,drawers,container
+drinking glass,container
+empty,container
+envelope,envelopes,container
+flowerpot,flowerpots,container
+fuel pod,container
+glass,glasses,container
+grab bag,container
+handbag,handbags,container
+handbasket,container
+magnetic bottle,container
+mailer,mailers,container
+manger,mangers,container
+mold,molds,container
+money box,container
+mould,moulds,container
+package,packages,container
+pan,pans,container
+parcel,parcels,container
+pipe bowl,container
+pocketbook,pocketbooks,container
+pod,pods,container
+pot,pots,container
+powder flask,container
+powder horn,container
+purse,purses,container
+receptacle,receptacles,container
+reliquary,reliquaries,container
+saltcellar,container
+savings bank,container
+scuttle,scuttles,container
+shaker,shakers,container
+showcase,showcases,container
+spoon,spoons,container
+storage ring,container
+thimble,thimbles,container
+time capsule,container
+tin,container
+tin can,container
+trough,troughs,container
+vessel,vessels,container
+vitrine,container
+waste-paper basket,container
+waste basket,container
+wastebasket,wastebaskets,container
+wastepaper basket,container
+watering can,container
+watering pot,container
+wheeled vehicle,container
+workbag,container
+workbasket,container
+workbox,container

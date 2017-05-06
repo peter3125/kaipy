@@ -1,0 +1,994 @@
+aavakaaya,food
+acarajé,food
+adobe bread,food
+agedashi tofu,food
+allerdale,food
+almond,almonds,food
+aloo mutter,food
+aloo pie,food
+aloo tikki,food
+amanattō,food
+amaranth,amaranths,food
+amish friendship bread,food
+anadama bread,food
+apple,apples,food
+apple butter,food
+apple cake,food
+apple chips,food
+apple cider,food
+apple cider cookie,food
+apple cobbler,food
+apple crisp,food
+apple dumpling,food
+apple fritter,food
+apple juice,apple juices,food
+apple pie,food
+apple sauce,food
+apple smoothie,food
+apple soda,food
+apple strudel,food
+apple turnover,food
+apple wassail,food
+apple-berry,food
+appledore,food
+applejack,food
+applesauce cake,food
+arab salad,food
+arroz con gandules,food
+arugula,food
+avre bendi,food
+baba ghanoush,food
+bacon and cabbage,food
+bai ye,food
+baked beans,food
+baked potato,food
+baked potatoes,food
+balcombe brown ring,food
+balila,food
+banana,bananas,food
+banana boat,food
+banana bread,food
+banana bread,food
+banana cake,food
+banana chip,food
+banana cue,food
+banana ketchup,food
+banana pudding,food
+banana split,food
+bananas foster,food
+bandeja paisa,food
+bangers and mash,food
+bannock,food
+bap,food
+bara brith,food
+barbadine,food
+barbados cherry,barbados cherries,food
+barley,barleys,food
+barley bread,food
+barm cake,food
+batuan,food
+beach plum,beach plums,food
+bean chips,food
+bean pie,food
+bean salad,food
+bearberry,food
+beaten biscuit,food
+beaten biscuit,food
+beemster,food
+beer bread,food
+beet,beets,food
+bergenost,food
+berkswell,food
+betel nut,betel nuts,food
+beurre noir,food
+bhadmaas,food
+bigilla,food
+bignay,food
+bilberry,bilberries,food
+bilimbi,food
+biriba,food
+biryani,food
+biscuit,biscuits,food
+biscuit,biscuits,food
+bissara,food
+bitter melon,food
+black apple,food
+black bevon welsh,food
+black cherry,food
+black cherry,food
+black currant,black currants,food
+black eyed susan,food
+black mulberry,food
+black peas,food
+black raspberry,food
+black sapote,food
+black walnut,black walnuts,food
+blackberry,blackberries,food
+blackcurrant,blackcurrants,food
+blood orange,blood oranges,food
+blooming onion,food
+blue tongue,food
+blueberry,blueberries,food
+bob chorba,food
+bodi ko achar,food
+bok choy,bok choys,food
+boli,food
+bolwarra,food
+boortsog,food
+boquila,food
+borage greens,food
+borscht,food
+bottle gourd,bottle gourds,food
+bouneschlupp,food
+bramble,food
+bread,breads,food
+bread,breads,food
+bread and butter pudding,food
+breadfruit,breadfruits,food
+breadnut,food
+brick cheese,food
+brinkburn,food
+broccoli,food
+broccoli slaw,food
+brown betty,food
+brown bread,food
+brush cherry,food
+brussels sprouts,food
+bubble and squeak,food
+bubur kacang hijau,food
+buffaloberry,buffaloberries,food
+bun,food
+burdekin plum,food
+burmese grape,food
+burmese tofu,food
+bush tomato,food
+butter cake,food
+butter chicken,food
+butter cookie,food
+butter pecan,food
+butter pie,food
+butter salt,food
+butter tart,food
+butter tea,food
+butterbrot,food
+buttercream,food
+butterkist,food
+butterkuchen,food
+buttermilk pie,food
+butterscotch,food
+buttery,food
+buttery (bread),food
+button mangosteen,food
+cabbage,cabbages,food
+cabbage,cabbages,food
+cabbage roll,food
+cabbage soup,food
+cabbage squares,food
+caesar salad,caesar salads,food
+caimito,food
+caithness,food
+cake,cakes,food
+calabash,calabashes,food
+calabash,calabashes,food
+calabash tree,food
+calamansi,food
+calamondin,calamondins,food
+caldo verde,food
+callos,food
+calvados,food
+calvados roger groult,food
+camu camu,food
+canary melon,food
+candlenut fruit,food
+candy apple,food
+canistel,food
+cantaloupe,cantaloupes,food
+caparrones,food
+cape gooseberry,food
+caprese salad,food
+capuli cherry,food
+carambola,carambolas,food
+caramel apple,food
+cardón,food
+carob,carobs,food
+carrot,carrots,food
+carrot bread,food
+carrot bread,food
+carrot cake,food
+carrot chips,food
+carrot pudding,food
+carrot salad,food
+carrot soup,food
+cashew apple,food
+cashew nut,cashew nuts,food
+cassabanana,food
+cassoulet,cassoulets,food
+catsear,food
+cattley guava,food
+cawesh,food
+cayeye,food
+cebolada,food
+cedar bay cherry,food
+celery,food
+celtuce,food
+cereus peruvianus,food
+ceriman,food
+ceylon gooseberry,food
+chalta,food
+champedak,food
+chana masala,food
+chanpuru,food
+chapea,food
+chapo,food
+charichuelo,food
+chaya,food
+chayote,chayotes,food
+che,food
+cheddar cheese,food
+cheese,cheeses,food
+cheese burger,food
+cheese curds,food
+chenet,food
+cherimoya,cherimoyas,food
+cherry,cherries,food
+cherry ballart,food
+chicken burger,food
+chicken kiev,food
+chickweed,food
+chicory,chicories,food
+chifle,food
+chile relleno,food
+chiles en nogada,food
+chili con carne,food
+chinese jujube,food
+chinese mallow,food
+chinese olive,food
+chips,food
+chips and dip,food
+chokeberry,chokeberries,food
+chole bhature,food
+chrysanthemum,chrysanthemums,food
+chupa-chupa,food
+churro,food
+ciambotta,food
+ciceri e tria,food
+cider,ciders,food
+citron,citrons,food
+cloudberry,food
+cluster fig,food
+cobbler,cobblers,food
+coca cola,food
+cocacola,food
+cocido lebaniego,food
+cocido madrileño,food
+cocido montañés,food
+cockle bread,food
+cocktail onion,food
+cocky apple,food
+coco plum,food
+cocona,food
+coconut,coconuts,food
+coconut,coconuts,food
+coffee,coffees,food
+coffee bean,coffee beans,food
+cofresi chili,food
+cola,colas,food
+cola nut,food
+colby cheese,food
+colby-jack cheese,food
+colcannon,food
+coleslaw,food
+collard greens,food
+collard liquor,food
+colorado blackie,food
+common purslane,food
+compound butter,food
+confit byaldi,food
+conkerberry,food
+cookie butter,food
+corn bread,food
+corn chowder,food
+corn salad,food
+cornbread,food
+cornbread,food
+cornish pepper,food
+cotherstone,food
+cottage loaf,food
+cowboy beans,food
+cranberry,cranberries,food
+cream cheese,food
+creole cream cheese,food
+cress,food
+croglin,food
+croissant,croissants,food
+croquette,croquettes,food
+crowberry,crowberries,food
+crudités,food
+crumpet,crumpets,food
+cuban bread,food
+cucumber soup,food
+cup cheese,food
+curry,curries,food
+curry-leaf tree,food
+custard,custards,food
+custard apple,custard apples,food
+dal,dals,food
+dal baati,food
+dal bhat,food
+dal makhani,food
+dalcha,food
+dandelion,dandelions,food
+danish pastry,food
+deep-fried peanuts,food
+dhansak,food
+dhokla,food
+dill,food
+dilly beans,food
+doenjang jjigae,food
+dopiaza,food
+dorstone,food
+doufunao,food
+douhua,food
+douzhi,food
+dripping cake,food
+dubu gui,food
+dubu jjigae,food
+dubu kimchi,food
+duchess potatoes,food
+duku,food
+dum aloo,food
+durian,durians,food
+edam,food
+edam,food
+edible honeysuckle,food
+egg butter,food
+egg waffle,food
+elderberry,elderberries,food
+ema datshi,food
+emu berry,food
+encebollado,food
+endive,endives,food
+es pisang ijo,food
+fabada asturiana,food
+fabes con almejas,food
+falafel,food
+falberry,food
+farinata,food
+farl,food
+farl,food
+farmer cheese,food
+farmhouse llanboidy,food
+fasolada,food
+fat hen,food
+feijoa,feijoas,food
+feijoada,food
+fiddlehead,fiddleheads,food
+fig,figs,food
+fig,figs,food
+finger lime,food
+fish and chips,food
+fish pie,food
+fluted pumpkin,food
+fonio,food
+forest strawberries,food
+french fries,food
+french onion soup,food
+fried aubergine,food
+fried cauliflower,food
+fried chicken,food
+fried onion,food
+frijoles charros,food
+frijoles negros,food
+frites,food
+frozen banana,food
+fruit curd,food
+frybread,food
+frybread,food
+ful medames,food
+gado-gado,food
+galia melon,food
+gallo pinto,food
+gallybagger,food
+gambooge,food
+ganmodoki,food
+garden rocket,food
+garden salad,food
+garlic butter,food
+garnache,food
+ghormeh sabzi,food
+ghugni,food
+giardiniera,food
+gigandes plaki,food
+ginanggang,food
+githeri,food
+glasswort salad,food
+gnocchi,food
+goji berries,food
+golden cross,food
+golden samphire,food
+goma-ae,food
+good king henry,food
+gooey butter cake,food
+gooseberry,gooseberries,food
+gooseberry,gooseberries,food
+gouda,food
+gouda,food
+granadilla,granadillas,food
+grape,grapes,food
+grape,grapes,food
+grapefruit,grapefruits,food
+graskaas,food
+greater plantain,food
+greek salad,food
+green bean casserole,food
+green papaya salad,food
+greengage,greengages,food
+griddle scone,food
+gruth dhu,food
+guacamole,food
+guava,guavas,food
+guava,guavas,food
+guavaberry,food
+guernsey bean jar,food
+hackberry,hackberries,food
+hamburger,hamburgers,food
+hard sauce,food
+hardy kiwi,food
+harlech,food
+hash brown,food
+hash browns,food
+havarti,food
+hawthorn,hawthorns,food
+hitlerszalonna,food
+hiyayakko,food
+hodge-podge,food
+hog plum,food
+holishkes,food
+hollandaise sauce,food
+home fries,food
+honeydew,food
+honeysuckle,honeysuckles,food
+hoop cheese,food
+horned melon,food
+huai'an pingqiao tofu,food
+huito,food
+hummus,food
+huntsman,huntsmen,food
+hushpuppy,food
+ice cream,ice creams,food
+ice cream bean,food
+illawarra plum,food
+inarizushi,food
+indian almond,food
+indian strawberry,food
+innkeepers choice,food
+isle of mull,food
+israeli salad,food
+ivory coast alloco,food
+i̇mam bayıldı,food
+jackfruit,jackfruits,food
+jalapeño popper,food
+jambul,food
+janssons frestelse,food
+japanese persimmon,food
+jemput-jemput,food
+jewish apple cake,food
+jidou liangfen,food
+judd mat gaardebounen,food
+jujube,jujubes,food
+jujube,jujubes,food
+kaalilaatikko,food
+kabosu,food
+kachumbari,food
+kai-lan,food
+kale,kales,food
+kapuska,food
+karedok,food
+karelian pasty,food
+katy's white lavender,food
+kek pisang,food
+keripik pisang,food
+kharcho,food
+kidderton ash,food
+kimchi,kimchis,food
+kinilnat,food
+kiwi fruit,food
+kiwifruit,food
+kluklu,food
+knieperkohl,food
+komatsuna,food
+kongbap,food
+koottu,food
+kosambari,food
+kouign-amann,food
+kugel,food
+kuka,food
+kuli-kuli,food
+kuluban,food
+kumquat,kumquats,food
+kupat tahu,food
+kuru fasulye,food
+kutjera,food
+kuzhambu,food
+kwati,food
+lablabi,food
+lady apple,food
+lagos bologi,food
+lakoocha,food
+lamb's lettuce,food
+lamb's quarters,food
+land cress,food
+laping,food
+lapsi,food
+lardy cake,food
+latka,food
+lawar (food),food
+lecsó,food
+leerdammer,food
+lefse,food
+lemon,lemons,food
+lemon,lemons,food
+lemon aspen,food
+lemon chicken,food
+lemon tart,food
+lentil soup,food
+lettuce,lettuces,food
+lettuce,lettuces,food
+lettuce sandwich,food
+leucaena,food
+leyden,food
+liangfen,food
+liederkranz cheese,food
+lillypilly,food
+limburger,food
+limburger cheese,food
+lime,limes,food
+lime,limes,food
+limeberry,food
+limequat,food
+lingonberry (vaccinium vitis-idaea),food
+linzer torte,food
+lion's head,food
+little wallop,food
+liver and onions,food
+liverpool tart,food
+lizard's tail,food
+lobio,food
+loganberry (rubus loganobaccus),food
+loquat,loquats,food
+lord of the hundreds,food
+louvi (flacourtia inermis; flacourtaceae),food
+lowerdale goats cheese,food
+lychee,lychees,food
+lyonnaise potatoes,food
+lángos,food
+ma-praang,food
+maasdam,food
+maaslander,food
+mabolo,food
+macadamia,macadamias,food
+madrono,food
+maize,maizes,food
+malabar spinach,food
+mamey sapote,food
+manchet,food
+mandarin,mandarins,food
+mango,mangos,food
+mangosteen,mangosteens,food
+mantecadas,food
+maple slaw,food
+mapo doufu,food
+marang,food
+marrowfat peas,food
+marula,marulas,food
+maruya,food
+mashed potato,food
+mashed pumpkin,food
+matoke,food
+mattar paneer,food
+mayapple,mayapples,food
+mayhaw,food
+maypop,food
+medlar,medlars,food
+meigan cai,food
+meiwa kumquat,food
+melinjo,food
+melokhia,food
+melon,melons,food
+melon pear,food
+melon soup,food
+meringue,meringues,food
+midyim,food
+mimolette,food
+miner's lettuce,food
+minestrone,food
+miracle fruit,food
+mixed pickle,food
+mizuna greens,food
+mock strawberry,food
+mofongo,food
+mombin,food
+monkey jackfruit,food
+monkey tamarind,food
+monstera,food
+monterey jack cheese,food
+montessa granadilla,food
+morinda,food
+morinda citrifolia,food
+moro de guandules,food
+moros y cristianos,food
+mountain pepper,food
+msabbaha,food
+muenster cheese,food
+muffin,muffins,food
+muffin,muffins,food
+mujaddara,food
+mulberry,mulberries,food
+mundu,food
+munydjudj,food
+murukku,food
+mushy peas,food
+muskmelon,muskmelons,food
+mustard,mustards,food
+naartjie,food
+nacho cheese,food
+nagasari,food
+nagelkaas,food
+nannyberry,food
+napa cabbage,napa cabbages,food
+naranjilla,food
+native currant,food
+native gooseberry,food
+native raspberry,food
+nectarine,nectarines,food
+netting hill cheese,food
+nokdumuk,food
+nutmeg,nutmegs,food
+oats,food
+olive,olives,food
+olive,olives,food
+olla podrida,food
+omelette,omelettes,food
+onion,onions,food
+onion cake,food
+onion gravy,food
+onion powder,food
+onion ring,food
+onion sauce,food
+orache,oraches,food
+orange,oranges,food
+oregon grape,food
+oroblanco,food
+otaheite gooseberry,food
+pabellón criollo,food
+pain aux raisins,food
+pak choy,food
+palmer's grass,food
+palmyra palm,food
+pan loaf,food
+pancake,pancakes,food
+paneer,paneers,food
+panelle,food
+pantysgawn,food
+pao cai,food
+papadum,food
+papaya,papayas,food
+paracress,food
+paripu,food
+parrano,food
+passion fruit,passion fruits,food
+pasta,pastas,food
+pasta e fagioli,food
+pasta primavera,food
+pastizz,food
+pasulj,food
+pawpaw,pawpaws,food
+pea soup,food
+peabutter,food
+peach,peaches,food
+peach,peaches,food
+peach palm,peach palms,food
+peanut,peanuts,food
+peanut butter,peanut butters,food
+pear,pears,food
+pearl millet,food
+pease pudding,food
+pea sprouts,food
+pecan,pecans,food
+pentadin,food
+pepino,food
+pepper,peppers,food
+pepper jack cheese,food
+pepperoni roll,food
+pequi,food
+persimmon,persimmons,food
+persimmon,persimmons,food
+peumo,food
+phalsa,food
+piccalilli,food
+pickled cucumber,food
+pickled onion,food
+pico de gallo,food
+pidan doufu,food
+pie and peas,food
+pie floater,food
+pigeon pea,pigeon peas,food
+pigeon plum,food
+pigface,food
+pinconning cheese,food
+pineapple,pineapples,food
+pisang goreng,food
+pistachio,pistachios,food
+pisto,food
+pitaya,food
+pitomba,food
+plain loaf,food
+plantain soup,food
+plum,plums,food
+plum,plums,food
+plum cake,food
+plum dumplings,food
+plum jam,food
+plum pie,food
+pois doux,food
+poke,pokes,food
+pokhemma,food
+pomegranate,pomegranates,food
+pomelo,pomelos,food
+pommerac,food
+pommes anna,food
+popcorn,food
+popover,food
+pork and beans,food
+porotos con rienda,food
+potato babka,food
+potato chip,food
+potato chips,food
+potato salad,food
+potato scone,food
+potatoes,food
+pozharsky cutlet,food
+prima donna,prima donnas,food
+proja,food
+provel cheese,food
+prunus avium,food
+prunus cerasus,food
+prunus serotina,food
+pudding,puddings,food
+puff pastry,food
+puftaloon,food
+pullman loaf,food
+pummelo,food
+pumpkin,pumpkins,food
+pumpkin bread,food
+purple guava,food
+purtumute,food
+quandong,quandongs,food
+queensland ebony,food
+quince,quinces,food
+raclette,food
+radicchio,food
+ragda pattice,food
+raisin,raisins,food
+raisin tree,food
+rajma,food
+rajma chawal,food
+rambutan,rambutans,food
+rapini,food
+raspberry,raspberries,food
+ratatouille,food
+rattan,rattans,food
+red bean cake,food
+red bean ice,food
+red bean paste,food
+red bean soup,food
+red beans and rice,food
+red currant,food
+red devil,food
+red granadilla,food
+red hawk,food
+red mombin,food
+red mulberry,food
+red slaw,food
+refried beans,food
+remonce,food
+revalenta arabica,food
+rhubarb,food
+riberry,food
+rice,rices,food
+rice and beans,food
+rice and peas,food
+rojak,food
+rollatini,food
+rollinia,food
+roomano,food
+rose apple,food
+rose hip,food
+rose-leaf bramble,food
+rumberry,food
+rumbledethumps,food
+rye,ryes,food
+salad niçoise,food
+salak,food
+salal,food
+salmonberry,food
+salsa,food
+salt-rising bread,food
+sambar,food
+samlar machu,food
+samosa,food
+samphire,samphires,food
+sandpaper fig,food
+sandwich,sandwiches,food
+sapodilla,sapodillas,food
+sarma,food
+saskatoonberry,food
+satinash,food
+sauerkraut,food
+scali bread,food
+scone,scones,food
+scone,scones,food
+scones,food
+scotch pie,food
+scuffler,food
+sculpit,food
+sea beet,food
+sea grape,food
+sea kale,food
+senate bean soup,food
+serviceberry,serviceberries,food
+shahan ful,food
+shchi,food
+sheepberry,food
+shipova,food
+shiro,food
+shortcake,shortcakes,food
+sicilian orange salad,food
+sierra leone bologi,food
+skirlie,food
+sloe,sloes,food
+sloosh,food
+snow berry,food
+soda bread,food
+sogan-dolma,food
+soko,food
+sopaipilla,food
+sorghum,sorghums,food
+sorrel,food
+sorrel soup,food
+soup,soups,food
+soup beans,food
+sour cabbage,food
+sour cherry,food
+spanish omelette,food
+spelt,spelts,food
+spinach,food
+spinach salad,food
+split pea soup,food
+spreewald gherkins,food
+stamppot,food
+star apple,food
+starfruit,food
+steak frites,food
+stinky tofu,food
+stottie cake,food
+strawberries,food
+strawberry,strawberries,food
+stridolo,food
+string cheese,food
+stuffed eggplant,food
+stuffed peppers,food
+stuffed zucchini,food
+suan cai,food
+succotash,food
+suffolk gold,food
+sugar apple,food
+summer purslane,food
+sundubu jjigae,food
+sweet cherry,food
+sweet lemon,food
+sweet orange,food
+sweet pepper,sweet peppers,food
+sweet potato pie,food
+sweetheart cake,food
+sweetsop,food
+swiss chard,food
+swiss cheese,food
+sycamore fig,food
+tabbouleh,food
+tacacho,food
+taho,food
+tahu aci,food
+tahu gejrot,food
+tahu goreng,food
+tahu sumedang,food
+tamarillo,food
+tamarind,tamarinds,food
+tamarind,tamarinds,food
+tangerine,tangerines,food
+tanjong,food
+tarte flambée,food
+tarte tatin,food
+tatsoi,food
+teff,food
+teleme cheese,food
+tepsi baytinijan,food
+texas caviar,food
+thai salads,food
+thimbleberry,food
+tianjin preserved vegetable,food
+tkemali,food
+toddy palm,food
+tofu skin roll,food
+tomato,tomatoes,food
+tomato omelette,food
+tomato soup,food
+tombet,food
+torpedo dessert,food
+tortillitas de camarones,food
+tostones,food
+toyon,toyons,food
+triticale,triticales,food
+truffade,food
+turnip cake,food
+turnip greens,food
+turon,food
+ulam (salad),food
+ulava charu,food
+umeboshi,food
+umeshu,food
+umngqusho,food
+urap,food
+utan,food
+vada,food
+vanilla,vanillas,food
+vegetable chips,food
+vegetable sandwich,food
+vegetable tarkari,food
+vegetarian chili,food
+vichyssoise,food
+village green goat,food
+vlaskaas,food
+waffle,waffles,food
+waldorf salad,food
+water apple,food
+water spinach,food
+watercress,food
+watermelon,watermelons,food
+wax apple,food
+wax gourd,food
+wax jambu,food
+weardale cheese,food
+wedding cabbage,food
+wheat,wheats,food
+wheatgrass,wheatgrasses,food
+white aspen,food
+white mulberry,food
+white sapote,food
+whortleberry,whortleberries,food
+whortleberry,whortleberries,food
+wild grape,food
+wild mangosteen,food
+wild orange,food
+wild peach,food
+wild plum,food
+wild rice,food
+wiltshire loaf,food
+wineberry,food
+wolfberry,wolfberries,food
+wongi,food
+wood apple,food
+woolsery goats,food
+wyfe of bath,food
+yangmei,food
+yantok,food
+yao choy,food
+yarrow,food
+yellow granadilla,food
+yong tau foo,food
+youngberry,food
+yun dou juan,food
+zaalouk,food
+zha cai,food
+ziziphus,food
+zwiebelkuchen,food

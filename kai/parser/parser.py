@@ -1,37 +1,36 @@
-import json
 import logging
+import res
+
 import en_core_web_sm
+from kai.lappin_leass.algorithm import LappinLeass
+from kai.parser.parser_model import Token, Sentence
 
 
 logging.info("loading spacy")
 nlp = en_core_web_sm.load()
 logging.info("spacy loaded")
 
-
-# sentence holder, this is what is returned
-class Token:
-    def __init__(self, text, index, tag, dep, ancestor_list):
-        self.text = text                        # text of the token
-        self.index = index                      # index of the token in the document 0..n
-        self.dep = dep                          # the name of the SRL dependency
-        self.tag = tag                          # penn tag, ucase
-        self.ancestor_list = ancestor_list      # dependency tree parent list
-        self.synid = -1                         # synset id (default -1, not set)
-
-
-# simple json encoder / decoder
-class JsonSystem(json.JSONEncoder):
-    def default(self, obj):
-        if isinstance(obj, Token):
-            return {'text': obj.text, 'index': obj.index, 'synid': obj.synid,
-                    'tag': obj.tag, 'dep': obj.dep, 'list': obj.ancestor_list}
-        return json.JSONEncoder.default(self, obj)
+logging.info("loading semantics")
+semantics = dict()  # noun -> semantic
+for file in res.directory_content('semantics'):
+    with open(file, 'r') as reader:
+        for line in reader:
+            line = line.strip()
+            if len(line) > 0 and not line.startswith("#"):
+                sem_str = line.split(",")
+                if len(sem_str) >= 2:
+                    words = sem_str[0:-1]
+                    for word in words:
+                        semantics[word] = sem_str[-1].lower()
+logging.info("semantics loaded")
 
 
 # the text parser
 class Parser:
     def __init__(self):
         self.en_nlp = nlp
+        self.semantics = semantics
+        self.ll = LappinLeass()
 
     # cleanup text to ASCII to avoid nasty python UTF-8 errors
     def cleanup_text(self, data):
@@ -48,25 +47,25 @@ class Parser:
 
     # convert from spacy to the above Token format for each sentence
     def convert_sentence(self, sent):
-        sentence = []
+        token_list = []
         for token in sent:
             ancestors = []
             for an in token.ancestors:
                 ancestors.append(str(an.i))
             text = str(token)
-            sentence.append(Token(text, token.i, token.tag_, token.dep_, ancestors))
-        return sentence
+            semantic = ''
+            if token.tag == "NN" or token.tag == "NNS" or token.tag == "NNP" or token.tag == "NNPS":
+                if text in self.semantics:
+                    semantic = self.semantics[text]
+            token_list.append(Token(text, token.i, token.tag_, token.dep_, ancestors, semantic))
+        return Sentence(token_list)
 
     # convert a document to a set of entity tagged, pos tagged, and dependency parsed entities
     def parse_document(self, text):
         doc = self.en_nlp(text)
         sentence_list = []
-        token_list = []
-        num_tokens = 0
         for sent in doc.sents:
             sentence = self.convert_sentence(sent)
-            token_list.extend(sentence)
             sentence_list.append(sentence)
-            num_tokens += len(sentence)
-        return sentence_list, token_list, num_tokens
-
+        self.ll.resolve_pronouns(sentence_list)  # resolve anaphora where possible
+        return sentence_list

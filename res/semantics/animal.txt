@@ -1,0 +1,419 @@
+Acinonyx jubatus,animal
+Africander,Africanders,animal
+Aranea diademata,animal
+Araneus cavaticus,animal
+Argiope aurantia,animal
+Asian horseshoe crab,animal
+Canis aureus,animal
+Canis familiaris,animal
+Clupea harangus,animal
+Devon,animal
+Felis onca,animal
+Fissipedia,animal
+Formica rufa,animal
+Frankliniella fusca,animal
+Hippopotamus amphibius,animal
+Latrodectus mactans,animal
+Limulus polyphemus,animal
+Menopon gallinae,animal
+Menopon palladum,animal
+Merostomata,animal
+Monomorium minimum,animal
+Monomorium pharaonis,animal
+Orycteropus afer,animal
+Panthera leo,animal
+Panthera onca,animal
+Panthera pardus,animal
+Panthera tigris,animal
+Panthera uncia,animal
+Pediculus capitis,animal
+Pediculus corporis,animal
+Pediculus humanus,animal
+Phthirius pubis,animal
+Phylloxera vitifoleae,animal
+Scutigerella immaculata,animal
+Thrips tobaci,animal
+Unguiculata,animal
+Ungulata,animal
+Vicugna vicugna,animal
+Welsh,animal
+Welsh Black,animal
+Xiphosurus polyphemus,animal
+aardvark,aardvarks,animal
+acanthocephalan,acanthocephalans,animal
+adelgid,animal
+annelid,annelids,animal
+annelid worm,animal
+ant,ants,animal
+ant bear,animal
+anteater,anteaters,animal
+aphid,aphids,animal
+aquatic mammal,animal
+arachnid,arachnids,animal
+arachnoid,arachnoids,animal
+army ant,animal
+arrowworm,arrowworms,animal
+arthropod,arthropods,animal
+artiodactyl,artiodactyls,animal
+artiodactyl,artiodactyls,animal
+artiodactyl mammal,animal
+artiodactyl mammal,animal
+barn spider,animal
+bass,basses,animal
+bat,bats,animal
+beard worm,animal
+bee killer,animal
+beef,beeves,animal
+beef cattle,animal
+beetle,beetles,animal
+big cat,animal
+bird louse,animal
+bitch,bitches,animal
+biting louse,animal
+black and gold garden spider,animal
+black widow,black widows,animal
+blowfish,blowfishes,animal
+bluefish,bluefishes,animal
+body louse,body lice,animal
+bottom fish,animal
+bream,breams,animal
+brook trout,brook trouts,animal
+buck,bucks,animal
+buffalofish,animal
+bug,bugs,animal
+bull,bulls,animal
+bulldog ant,animal
+bullock,bullocks,animal
+butterfish,butterfishes,animal
+camel,camels,animal
+canine,canines,animal
+carnivore,carnivores,animal
+carp,carps,animal
+carpenter ant,animal
+cat,cats,animal
+catfish,catfishes,animal
+cattle,animal
+centipede,centipedes,animal
+chaetognath,chaetognaths,animal
+char,chars,animal
+charr,charrs,animal
+cheetah,cheetahs,animal
+chetah,animal
+chicken louse,animal
+chiropteran,chiropterans,animal
+class Merostomata,animal
+cod,cods,animal
+codfish,codfishes,animal
+collembolan,collembolans,animal
+colugo,colugos,animal
+comb-footed spider,animal
+common louse,animal
+coney,coneys,animal
+cony,conies,animal
+cootie,animal
+cow,cows,animal
+crab,crabs,animal
+crab louse,crab lice,animal
+crane fly,animal
+croaker,croakers,animal
+crustacean,crustaceans,animal
+cusk,cusks,animal
+daddy longlegs,animal
+dairy cattle,animal
+dairy cow,animal
+das,animal
+dassie,dassies,animal
+defoliator,defoliators,animal
+dictyopterous insect,animal
+digitigrade,animal
+digitigrade mammal,animal
+dinoceras,animal
+dinocerate,animal
+dinocerate,animal
+dipteran,dipterans,animal
+dipteron,animal
+dipterous insect,animal
+doe,does,animal
+dog,dogs,animal
+dolphinfish,dolphinfishes,animal
+domestic dog,domestic dogs,animal
+driver ant,driver ants,animal
+earwig,earwigs,animal
+edentate,edentates,animal
+elasmobranch,elasmobranchs,animal
+ephemeral,ephemerals,animal
+ephemerid,ephemerids,animal
+ephemeron,animal
+ephemeropteran,animal
+equid,equids,animal
+equine,equines,animal
+eurypterid,animal
+eutherian,eutherians,animal
+eutherian mammal,animal
+even-toed ungulate,animal
+even-toed ungulate,animal
+fang,fangs,animal
+farm animal,animal
+feline,felines,animal
+fire ant,fire ants,animal
+flatfish,flatfishes,animal
+flatworm,flatworms,animal
+flea,fleas,animal
+fly,flies,animal
+flying cat,animal
+flying lemur,flying lemurs,animal
+food fish,animal
+fox,foxes,animal
+freshwater bass,animal
+freshwater bream,animal
+freshwater fish,animal
+fruit fly,fruit flies,animal
+fungus gnat,fungus gnats,animal
+gall gnat,animal
+gall midge,gall midges,animal
+gallfly,gallflies,animal
+garden centipede,animal
+garden spider,animal
+garden symphilid,animal
+gnat,gnats,animal
+gnawer,gnawers,animal
+gnawing animal,animal
+gnawing mammal,animal
+grade,grades,animal
+grape louse,animal
+grape phylloxera,animal
+groundfish,groundfishes,animal
+grouper,groupers,animal
+head louse,head lice,animal
+helminth,helminths,animal
+hemipteran,hemipterans,animal
+hemipteron,hemipterons,animal
+hemipterous insect,animal
+herring,herrings,animal
+heteropterous insect,animal
+hippo,hippos,animal
+hippoboscid,hippoboscids,animal
+hippopotamus,hippopotamuses,animal
+holometabola,animal
+homopteran,homopterans,animal
+homopterous insect,animal
+hoofed mammal,animal
+horseshoe crab,horseshoe crabs,animal
+hunting spider,animal
+hyaena,hyaenas,animal
+hyena,hyenas,animal
+hymenopter,hymenopters,animal
+hymenopteran,hymenopterans,animal
+hymenopteron,animal
+hymenopterous insect,animal
+hyrax,hyraxes,animal
+imago,imagos,animal
+insect,insects,animal
+insect,insects,animal
+insectivore,insectivores,animal
+instar,instars,animal
+jackal,jackals,animal
+jaguar,jaguars,animal
+jumping plant louse,animal
+king crab,king crabs,animal
+king of beasts,animal
+kingfish,kingfishes,animal
+lagomorph,lagomorphs,animal
+lake trout,lake trouts,animal
+leaf-miner,animal
+leaf miner,leaf miners,animal
+legionary ant,animal
+leopard,leopards,animal
+lepidopteran,lepidopterans,animal
+lepidopteron,animal
+lepidopterous insect,animal
+liger,animal
+lingcod,animal
+lion,lions,animal
+little black ant,animal
+livestock,animal
+llama,llamas,animal
+louse,louses,animal
+louse fly,animal
+mackerel,mackerels,animal
+mahimahi,animal
+mecopteran,mecopterans,animal
+metabola,animal
+milch cow,animal
+milcher,animal
+milk cow,animal
+milker,milkers,animal
+millepede,animal
+milliped,millipeds,animal
+millipede,millipedes,animal
+monkfish,monkfishes,animal
+moo-cow,animal
+mosquito,mosquitos,animal
+mudcat,animal
+musk hog,animal
+myriapod,myriapods,animal
+nematode,nematodes,animal
+nematode worm,animal
+nemertean,nemerteans,animal
+nemertine,animal
+neuropteran,neuropterans,animal
+neuropteron,animal
+neuropterous insect,animal
+oak blight,animal
+odd-toed ungulate,animal
+odd-toed ungulate,animal
+odonate,odonates,animal
+onion louse,animal
+onion thrips,animal
+onychophoran,onychophorans,animal
+orb-weaving spider,animal
+orthopteran,orthopterans,animal
+orthopteron,animal
+orthopterous insect,animal
+ounce,ounces,animal
+ox,oxen,animal
+pachyderm,pachyderms,animal
+pangolin,pangolins,animal
+panther,panthers,animal
+parasitic worm,animal
+peccary,peccaries,animal
+pentastomid,animal
+perch,perches,animal
+peripatus,animal
+perissodactyl,perissodactyls,animal
+perissodactyl,perissodactyls,animal
+perissodactyl mammal,animal
+perissodactyl mammal,animal
+pharaoh's ant,animal
+pharaoh ant,animal
+phasmid,phasmids,animal
+phasmid insect,animal
+pike,pikes,animal
+pilchard,pilchards,animal
+plantigrade,animal
+plantigrade mammal,animal
+platyhelminth,platyhelminths,animal
+plecopteran,animal
+pogonophoran,pogonophorans,animal
+pollack,pollacks,animal
+pollinator,pollinators,animal
+pollock,pollocks,animal
+pomace fly,animal
+pompano,pompanos,animal
+porgy,porgies,animal
+primate,primates,animal
+proboscidean,proboscideans,animal
+proboscidian,animal
+proboscis worm,animal
+proturan,animal
+psocopterous insect,animal
+psylla,psyllas,animal
+psyllid,psyllids,animal
+pubic louse,pubic lice,animal
+puffer,puffers,animal
+pufferfish,pufferfishes,animal
+pupa,pupas,animal
+pycnogonid,pycnogonids,animal
+queen,queens,animal
+ray,rays,animal
+red poll,animal
+red rockfish,animal
+rhino,rhinos,animal
+rhinoceros,rhinoceroses,animal
+ribbon worm,animal
+river horse,animal
+robber fly,animal
+rockfish,rockfishes,animal
+rodent,rodents,animal
+roundworm,roundworms,animal
+ruminant,ruminants,animal
+saber-toothed tiger,animal
+sabertooth,animal
+sailfish,sailfishes,animal
+salmon,salmons,animal
+salmonid,salmonids,animal
+saltwater fish,animal
+sardine,sardines,animal
+scaly anteater,animal
+sciara,animal
+sciarid,sciarids,animal
+scup,scups,animal
+sea bass,animal
+sea bream,sea breams,animal
+sea spider,animal
+sea squab,animal
+segmented worm,animal
+shad,shads,animal
+shaft louse,animal
+shark,sharks,animal
+slave-maker,animal
+slave-making ant,animal
+slave ant,animal
+snapper,snappers,animal
+snow leopard,snow leopards,animal
+sole,soles,animal
+speckled trout,animal
+spider,spiders,animal
+spiny-headed worm,animal
+springtail,springtails,animal
+steer,steers,animal
+stirk,animal
+stock,stocks,animal
+stone fly,animal
+stonefly,stoneflies,animal
+sucker,suckers,animal
+sucking louse,sucking lice,animal
+sunfish,sunfishes,animal
+swine,swines,animal
+swordfish,swordfishes,animal
+symphilid,animal
+tapir,tapirs,animal
+tarantula,tarantulas,animal
+tardigrade,tardigrades,animal
+telsontail,animal
+termite,termites,animal
+theridiid,theridiids,animal
+thrips,animal
+thysanopter,animal
+thysanopteron,animal
+thysanopterous insect,animal
+thysanuran insect,animal
+thysanuron,animal
+tiger,tigers,animal
+tiglon,animal
+tigon,animal
+tobacco thrips,animal
+tongue worm,animal
+trap-door spider,animal
+tree shrew,tree shrews,animal
+trichopteran,trichopterans,animal
+trichopteron,animal
+trichopterous insect,animal
+trilobite,trilobites,animal
+trout,trouts,animal
+true cat,animal
+tuna,tunas,animal
+tuna fish,tuna fishes,animal
+tunny,animal
+two-winged insects,animal
+uintathere,animal
+unguiculate,animal
+unguiculate mammal,animal
+ungulate,ungulates,animal
+ungulate,ungulates,animal
+velvet worm,animal
+vicuna,vicunas,animal
+weakfish,weakfishes,animal
+web spinner,animal
+white ant,animal
+whitefish,whitefishes,animal
+whiting,animal
+wild dog,wild dogs,animal
+wolf,wolves,animal
+wolf spider,wolf spiders,animal
+wood ant,wood ants,animal
+woodworm,woodworms,animal
+worker,workers,animal
+worm,worms,animal
+yearling,yearlings,animal
+old squaw,old squaws,animal

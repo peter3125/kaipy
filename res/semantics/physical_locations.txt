@@ -1,0 +1,410 @@
+accountancy,location
+acreage,location
+agency,agencies,location
+agribusiness,agribusinesses,location
+agriculture,location
+aisle,aisles,location
+anchorage ground,location
+anchorage,anchorages,location
+anechoic chamber,location
+antechamber,antechambers,location
+anteroom,anterooms,location
+apposition,appositions,location
+area,areas,location
+arena,arenas,location
+areola,areolas,location
+art gallery,location
+auditorium,auditoriums,location
+back room,location
+baggage claim,location
+bakehouse,location
+bakery,bakeries,location
+bakeshop,location
+balk,balks,location
+ballroom,ballrooms,location
+bar,bars,location
+barroom,barrooms,location
+base,bases,location
+bath,baths,location
+bathroom,bathrooms,location
+baulk,baulks,location
+beach,beaches,location
+bed ground,location
+bed,beds,location
+bed-ground,location
+bedchamber,location
+bedground,location
+bedroom,bedrooms,location
+beehive,beehives,location
+belfry,location
+bema,location
+berth,berths,location
+big business,location
+billet,billets,location
+billiard hall,location
+billiard parlor,location
+billiard parlour,location
+billiard room,location
+billiard saloon,location
+bilocation,location
+biz,location
+blank space,location
+block,blocks,location
+boardroom,boardrooms,location
+box,boxes,location
+breakfast area,location
+breakfast nook,location
+breathing room,location
+breathing space,location
+broadcast area,location
+broken home,location
+brokerage house,location
+brokerage,brokerages,location
+building,buildings,location
+bullpen,location
+business firm,location
+business,businesses,location
+butchering,location
+butchery,butcheries,location
+cardroom,location
+carrier,carriers,location
+central,centrals,location
+chamber,chambers,location
+chancel,location
+checkroom,location
+city block,location
+classroom,classrooms,location
+clean room,clean rooms,location
+clearance,clearances,location
+clearing,location
+cliff dwelling,location
+cloakroom,cloakrooms,location
+closet,closets,location
+clubroom,location
+coatroom,location
+colliery,collieries,location
+collocation,collocations,location
+common carrier,location
+compartment,compartments,location
+condo,condos,location
+condominium,condominiums,location
+confectionery,confectioneries,location
+conference room,location
+construction,constructions,location
+control room,control rooms,location
+corner,corners,location
+council chamber,location
+court,courts,location
+courtroom,courtrooms,location
+courtyard,courtyards,location
+craft,crafts,location
+creamery,location
+cubby,location
+cubbyhole,location
+cubicle,cubicles,location
+cutting room,location
+dance hall,dance halls,location
+dance palace,location
+darkroom,darkrooms,location
+dead-air space,location
+dealership,dealerships,location
+den,dens,location
+dinette,location
+dining area,location
+dining room,dining rooms,location
+dining-room,location
+disaster area,location
+discount business,location
+domicile,domiciles,location
+door,doors,location
+dressing room,location
+drill site,location
+dungeon,dungeons,location
+durbar,location
+dwell,dwells,location
+Earth,location
+employee-owned business,location
+employee-owned enterprise,location
+engine room,location
+engineering,location
+entrance hall,location
+erasure,erasures,location
+exchange,exchanges,location
+factory farm,location
+family circle,location
+farm,farms,location
+farming,location
+field of operation,location
+field,fields,location
+fireside,firesides,location
+firm,firms,location
+fish farm,location
+fishery,fisheries,location
+fishing,location
+fixer-upper,location
+floor,floors,location
+footprint,footprints,location
+forge,forges,location
+foster home,foster homes,location
+foyer,foyers,location
+franchise,franchises,location
+free port,location
+free zone,location
+front room,location
+front,fronts,location
+furnace room,location
+gallery,galleries,location
+garden,gardens,location
+gasworks,location
+ginmill,location
+glassworks,location
+goalmouth,location
+greenroom,location
+groin,groins,location
+guardroom,location
+half-moon,location
+hall,halls,location
+hall,location
+hangout,location
+harbour,harbours,location
+haunt,haunts,location
+headroom,location
+headway,location
+hearth,hearths,location
+here,location
+hermitage,location
+hideaway,hideaways,location
+home away from home,location
+home from home,location
+home,homes,location
+homestead,homesteads,location
+hospital room,location
+hospital,location
+house,houses,location
+houseroom,location
+hunting ground,location
+hypochondrium,hypochondria,location
+implantation,implantations,location
+indian lodge,location
+industry,industries,location
+inguen,inguina,location
+interposition,interpositions,location
+ironworks,location
+jail cell,location
+job,jobs,location
+john,location
+jungle,jungles,location
+juxtaposition,juxtapositions,location
+kingdom,kingdoms,location
+kitchen,kitchens,location
+lab,labs,location
+laboratory,laboratories,location
+lake dwelling,location
+land area,location
+land,lands,location
+land-office business,location
+lap,laps,location
+laundry,laundries,location
+lav,location
+lavatory,lavatories,location
+lawcourt,location
+lebensraum,location
+left-luggage office,location
+library,libraries,location
+living room,living rooms,location
+living space,location
+living-room,location
+lobby,lobbies,location
+location,locations,location
+locker room,location
+lodge,lodges,location
+loins,location
+lost-luggage,location
+lounge,location
+lumberyard,location
+manor hall,location
+manufacturer,manufacturers,location
+manufacturing business,location
+menage a trois,location
+messuage,location
+metier,metiers,location
+nave,naves,location
+no man's land,location
+no-go area,location
+nook,nooks,location
+nunnery,location
+office,offices,location
+old country,location
+orchestra pit,location
+outer space,location
+oyster bank,location
+oyster bed,location
+oyster park,location
+packaging,packagings,location
+panopticon,panopticons,location
+parking,location
+parlor,parlors,location
+parlour,parlours,location
+partnership,partnerships,location
+patio,patios,location
+peanut gallery,location
+photography,photographies,location
+picture gallery,location
+pile dwelling,location
+pit,pits,location
+place,places,location
+plane section,location
+planting,plantings,location
+point,points,location
+political arena,location
+political sphere,location
+poolroom,location
+position,positions,location
+post,posts,location
+presence chamber,location
+preserve,preserves,location
+press gallery,location
+printing,location
+prison cell,location
+prison,prisons,location
+privy,privies,location
+province,provinces,location
+proving ground,location
+pubic region,location
+quad,quads,location
+quadrant,quadrants,location
+rathole,location
+reading room,location
+real-estate business,location
+realm,realms,location
+rec room,location
+reception room,reception rooms,location
+recreation room,location
+refuge,refuges,location
+research lab,location
+research laboratory,location
+resort,resorts,location
+responsibility,responsibilities,location
+rest area,location
+rest stop,location
+retreat,location
+ring of color,location
+room,rooms,location
+rope yard,location
+ropewalk,location
+rotunda,rotundas,location
+roundhouse,location
+sacristy,location
+safety,safeties,location
+saloon,saloons,location
+salt mine,location
+sanctuary,sanctuaries,location
+scene,scenes,location
+school,location
+schoolroom,schoolrooms,location
+science lab,location
+science laboratory,location
+scriptorium,scriptoria,location
+scullery,location
+sea room,location
+seat,location
+seating area,location
+seating room,location
+seating,location
+second balcony,location
+section,sections,location
+semi-detached house,location
+sewing room,location
+shipbuilder,location
+shipping room,location
+shipping,location
+shipyard,shipyards,location
+shop floor,location
+shop,shops,location
+shower room,location
+shower,location
+shrubbery,shrubberies,location
+shtick,location
+shtik,location
+sick berth,location
+sickbay,location
+sickroom,sickrooms,location
+sitting room,sitting rooms,location
+situation,situations,location
+sleeping room,location
+smithy,location
+smoking room,location
+snug,location
+snuggery,location
+sodom,location
+solarium,solariums,location
+sole,soles,location
+somewhere,location
+space,spaces,location
+spot,spots,location
+squad room,location
+staging area,location
+stamping ground,location
+standing room,location
+steam bath,steam baths,location
+steam room,location
+storage room,location
+storage space,location
+storage,storages,location
+storeroom,storerooms,location
+stowage,stowages,location
+stratification,stratifications,location
+studio,studios,location
+study,studies,location
+sun lounge,location
+sun parlor,location
+sun parlour,location
+sun porch,location
+sunporch,location
+sunroom,location
+superposition,superpositions,location
+surgery,surgeries,location
+tank farm,location
+tannery,tanneries,location
+taproom,location
+telephone exchange,location
+television room,location
+terrace,terraces,location
+territory,territories,location
+test bed,test beds,location
+test room,location
+testing room,location
+thenar,location
+there,location
+threshing floor,location
+toilet,toilets,location
+torture chamber,location
+trading floor,location
+treadmill,treadmills,location
+turnaround,turnarounds,location
+tv room,location
+underperformer,location
+upper balcony,location
+vacation home,location
+vapor bath,location
+vapour bath,location
+vehicle,vehicles,location
+venture,ventures,location
+vestibule,vestibules,location
+vestry,location
+waiting area,location
+waiting room,waiting rooms,location
+walk-in,location
+war room,location
+waterworks,location
+whereabouts,location
+white room,location
+winner's circle,location
+work,works,location
+workplace,workplaces,location
+workroom,workrooms,location
+workshop,workshops,location
+yellow spot,location
+yurt,location
+Abbey-Mill,location
+forest,forests,location

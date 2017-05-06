@@ -1,0 +1,33 @@
+Monday,date
+Tuesday,date
+Wednesday,date
+Thursday,date
+Friday,date
+Saturday,date
+Sunday,date
+January,date
+February,date
+March,date
+April,date
+May,date
+June,date
+July,date
+August,date
+September,date
+October,date
+November,date
+December,date
+week,date
+month,date
+day,date
+year,date
+date,date
+next week,date
+last week,date
+next month,date
+last month,date
+next year,date
+last year,date
+tomorrow,date
+yesterday,date
+fortnight,date

@@ -1,0 +1,44 @@
+# by no means complete
+Auckland,city
+Birkenhead,city
+Blenheim,city
+Cambridge,city
+Christchurch,city
+Dunedin,city
+East Coast Bays,city
+Gisborne,city
+Hamilton,city
+Hastings,city
+Invercargill,city
+Invercargill,city
+Levin,city
+Lower Hutt,city
+Manukau,city
+Masterton,city
+Mt Albert,city
+Napier,city
+Nelson,city
+New Plymouth,city
+Orewa,city
+Otaki,city
+Paekakariki,city
+Palmerston North,city
+Papakura,city
+Papatoetoe,city
+Paraparaumu,city
+Porirua,city
+Raumati,city
+Rotorua,city
+Takapuna,city
+Takapuna,city
+Tamaki,city
+Taupo,city
+Tauranga,city
+Timaru,city
+Tokoroa,city
+Upper Hutt,city
+Waikanaea,city
+Waitemata,city
+Wellington,city
+Whanganui,city
+Whangarei,city

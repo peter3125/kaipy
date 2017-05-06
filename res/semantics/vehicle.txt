@@ -1,0 +1,111 @@
+armored combat vehicle,vehicle
+armoured combat vehicle,vehicle
+army tank,vehicle
+arrow,arrows,vehicle
+automobile,automobiles,vehicle
+baby buggy,vehicle
+baby carriage,vehicle
+bicycle,bicycles,vehicle
+bike,bikes,vehicle
+boat,boats,vehicle
+bob,bobs,vehicle
+bobsled,bobsleds,vehicle
+bobsleigh,bobsleighs,vehicle
+boneshaker,vehicle
+boomerang,boomerangs,vehicle
+booster rocket,vehicle
+booster unit,vehicle
+booster,boosters,vehicle
+bullet,bullets,vehicle
+bumper car,vehicle
+caisson,caissons,vehicle
+cannon ball,vehicle
+cannonball,cannonballs,vehicle
+car,cars,vehicle
+carriage,carriages,vehicle
+cart,carts,vehicle
+coaster wagon,vehicle
+combat ship,vehicle
+craft,crafts,vehicle
+cycle,cycles,vehicle
+dart,darts,vehicle
+dodgem,vehicle
+dog sled,vehicle
+dog sleigh,vehicle
+dogsled,vehicle
+go-cart,vehicle
+half track,vehicle
+handcart,vehicle
+horse-drawn vehicle,vehicle
+house trailer,vehicle
+luge,vehicle
+military plane,vehicle
+military vehicle,vehicle
+missile,missiles,vehicle
+monocycle,vehicle
+motor scooter,motor scooters,vehicle
+multistage rocket,vehicle
+nuclear rocket,vehicle
+pellet,pellets,vehicle
+perambulator,perambulators,vehicle
+personnel carrier,vehicle
+picket,pickets,vehicle
+pram,prams,vehicle
+projectile,projectiles,vehicle
+pung,vehicle
+pushcart,vehicle
+pushchair,pushchairs,vehicle
+pusher,pushers,vehicle
+railcar,railcars,vehicle
+railroad car,vehicle
+railway car,vehicle
+reconnaissance vehicle,vehicle
+research rocket,vehicle
+retrorocket,vehicle
+road roller,vehicle
+rocket,rockets,vehicle
+rolling stock,vehicle
+round shot,vehicle
+scooter,scooters,vehicle
+scout car,vehicle
+seeker,seekers,vehicle
+self-propelled vehicle,vehicle
+shot,shots,vehicle
+skateboard,skateboards,vehicle
+skibob,vehicle
+sled,sleds,vehicle
+sledge,sledges,vehicle
+sleigh,sleighs,vehicle
+slug,slugs,vehicle
+space rocket,vehicle
+spitball,vehicle
+steamroller,steamrollers,vehicle
+step rocket,vehicle
+stroller,strollers,vehicle
+takeoff booster,vehicle
+takeoff rocket,vehicle
+tank,tanks,vehicle
+technical,vehicle
+test instrument vehicle,vehicle
+test rocket,vehicle
+throw stick,vehicle
+throwing stick,vehicle
+thruster,thrusters,vehicle
+toboggan,toboggans,vehicle
+trailer,trailers,vehicle
+tricycle,tricycles,vehicle
+trike,trikes,vehicle
+troop carrier,vehicle
+troop transport,vehicle
+unicycle,unicycles,vehicle
+vehicle,vehicles,vehicle
+velocipede,vehicle
+waggon,waggons,vehicle
+wagon,wagons,vehicle
+war vessel,vehicle
+warplane,vehicle
+warship,vehicle
+weapons carrier,vehicle
+welcome wagon,vehicle
+wheel,wheels,vehicle
+wheeled vehicle,vehicle

@@ -1,0 +1,982 @@
+abator,person
+abjurer,person
+abomination,abominations,person
+abstainer,abstainers,person
+abstinent,person
+academic,academics,person
+achiever,achievers,person
+acquaintance,acquaintances,person
+acquirer,person
+active,actives,person
+actor,actors,person
+adjudicator,adjudicators,person
+adjutant,adjutants,person
+admirer,admirers,person
+adonis,adonises,person
+adoptee,adoptees,person
+adult,adults,person
+advisee,advisees,person
+advocate,advocates,person
+advocator,advocators,person
+affiant,affiants,person
+African,Africans,person
+aggregator,aggregators,person
+agnostic,agnostics,person
+aide-de-camp,person
+aide,aides,person
+air force officer,person
+allayer,person
+amateur,amateurs,person
+amazon,person
+Amerindian,Amerindians,person
+ancient,ancients,person
+anomaly,anomalies,person
+antediluvian,person
+anti-American,person
+anti,antis,person
+ape,apes,person
+aper,person
+applicant,applicants,person
+applier,appliers,person
+appointee,appointees,person
+appointment,appointments,person
+appreciator,person
+apprehender,person
+Aquarius,Aquariuses,person
+archaist,person
+Archer,Archers,person
+Aries,Arieses,person
+arrogator,person
+artilleryman,artillerymen,person
+assessee,assessees,person
+assimilator,assimilators,person
+asthmatic,asthmatics,person
+attempter,attempters,person
+attorney general,attorneys general,person
+aunt,aunts,female
+authority,authorities,person
+autodidact,autodidacts,person
+B-girl,female
+baboo,person
+babu,person
+baby boomer,baby boomers,person
+baby buster,person
+baby,babies,person
+bachelor girl,female
+bachelor,bachelors,person
+bachelorette,female
+back-number,person
+bad guy,male
+bad person,person
+baggage,person
+Balance,person
+baldhead,person
+baldpate,baldpates,person
+baldy,baldies,person
+balker,person
+ball-breaker,person
+ball-buster,person
+bar girl,female
+bas bleu,person
+bather,bathers,person
+battler,person
+baulker,person
+bawd,person
+beard,beards,person
+beau,beaux,person
+beauty,beauties,person
+bedfellow,person
+beguiler,person
+beholder,beholders,person
+belligerent,belligerents,person
+bereaved person,person
+bereaved,person
+best,person
+bey,person
+biter,biters,person
+Black man,male
+Black person,person
+Black woman,female
+Black,Blacks,person
+black,blacks,person
+blackamoor,person
+blogger,person
+bloke,person
+blond,blonds,person
+blonde,blondes,person
+bluecoat,person
+bluejacket,person
+bluestocking,person
+bobby,bobbies,person
+bodybuilder,bodybuilders,person
+bomber,bombers,person
+boomer,boomers,person
+border patrolman,person
+boy,boys,male
+boyfriend,boyfriends,male
+bozo,person
+brass hat,person
+bridesmaid,bridesmaids,female
+broad,broads,person
+brother,brothers,male
+bruiser,person
+brunet,brunets,person
+brunette,brunettes,person
+Bull,person
+bull,bulls,person
+bullfighter,bullfighters,person
+buster,busters,person
+Cancer,person
+candidate,candidates,person
+cannoneer,person
+Capricorn,person
+captor,captors,person
+capturer,person
+cardholder,cardholders,person
+carrottop,person
+case,cases,person
+cashier,cashiers,person
+castrate,castrates,person
+Caucasian,Caucasians,person
+celebrant,celebrants,person
+celebrater,person
+celebrator,celebrators,person
+censor,censors,person
+centenarian,centenarians,person
+chameleon,chameleons,person
+changer,changers,person
+charmer,person
+checker,checkers,person
+chess piece,person
+chessman,chessmen,person
+chief of staff,person
+child,children,person
+chooser,choosers,person
+chutzpanik,person
+Cinderella,Cinderellas,person
+closer,closers,person
+cloud seeder,person
+clumsy person,person
+cobber,person
+cocotte,person
+coddler,person
+collector,collectors,person
+color-blind person,person
+combatant,combatants,person
+comforter,comforters,person
+commandant,person
+commander,commanders,person
+commanding officer,person
+commando,commandos,person
+commissioned officer,person
+common man,person
+common person,person
+commoner,commoners,person
+communicator,communicators,person
+compeer,compeers,person
+complexifier,person
+compulsive,compulsives,person
+computer user,person
+comrade,comrades,person
+conscript,conscripts,person
+constable,constables,person
+contemplative,person
+contestant,contestants,person
+contriver,person
+controller,controllers,person
+controversialist,controversialists,person
+convert,converts,person
+cop,cops,person
+copper,coppers,person
+copycat,copycats,person
+coquette,coquettes,person
+counter,counters,person
+counterterrorist,person
+coward,cowards,person
+Crab,person
+crawler,crawlers,person
+creator,creators,person
+creature,creatures,person
+creditor,creditors,person
+creeper,creepers,person
+cripple,cripples,person
+cross-dresser,person
+curmudgeon,curmudgeons,person
+cyprian,person
+dad,dads,person
+dada,male
+daddy,daddies,male
+dame,dames,female
+dancer,dancers,person
+date,dates,person
+deaf person,person
+deb,debs,person
+debaser,person
+debitor,person
+debtor,debtors,person
+debutante,person
+defecator,defecators,person
+degrader,degraders,person
+delayer,delayers,person
+Delilah,person
+deliverer,deliverers,person
+demander,person
+denizen,denizens,person
+deputy sheriff,person
+deputy,deputies,person
+desk officer,person
+detective,detectives,person
+devil dog,person
+deviser,person
+dieter,dieters,person
+differentiator,differentiators,person
+discriminator,discriminators,person
+disentangler,person
+dish,dishes,person
+disputant,disputants,person
+dissenter,dissenters,person
+dissident,dissidents,person
+divider,dividers,person
+divorced man,person
+dodderer,person
+dodo,dodos,person
+doer,doers,person
+domestic partner,person
+dominatrix,person
+donna,person
+doormat,person
+dotard,person
+double,doubles,person
+doubter,doubters,person
+draftee,draftees,person
+dresser,dressers,person
+dribbler,dribblers,person
+driveller,person
+drooler,person
+drug user,person
+dude,dudes,person
+dupe,dupes,person
+dweller,dwellers,person
+dyslectic,dyslectics,person
+ectomorph,ectomorphs,person
+effecter,effecters,person
+effector,effectors,person
+ejaculator,ejaculators,person
+ejector,ejectors,person
+Elizabethan,person
+emotional person,person
+emulator,emulators,person
+enchantress,enchantresses,person
+endomorph,endomorphs,person
+enjoyer,enjoyers,person
+enlisted person,person
+enrollee,enrollees,person
+entertainer,entertainers,person
+equal,equals,person
+eristic,person
+escort,escorts,person
+Esq,person
+Esquire,person
+essayer,person
+ethnic,ethnics,person
+eunuch,eunuchs,person
+ex-husband,male
+ex-serviceman,person
+ex-wife,female
+ex,exes,person
+exboyfriend,person
+excuser,person
+executive officer,person
+expectorator,person
+experimenter,experimenters,person
+expert,experts,person
+exponent,exponents,person
+extravert,extraverts,person
+extrovert,extroverts,person
+eyeful,eyesful,person
+face,faces,person
+faculty member,person
+faddist,faddists,person
+faller,fallers,person
+fancy woman,female
+fastener,fasteners,person
+father figure,male
+father surrogate,male
+father-figure,male
+father-in-law,male
+fellow,fellows,person
+female person,female
+female,females,female
+femme fatale,female
+fiduciary,fiduciaries,person
+fighter,fighters,person
+fille,person
+first mate,person
+first person,person
+first-rater,person
+Fish,person
+flatfoot,flatfeet,person
+fleer,person
+flirt,flirts,person
+fogey,person
+fogy,person
+follower,followers,person
+forerunner,forerunners,person
+forgiver,person
+fossil,fossils,person
+free agent,free agents,person
+free spirit,person
+freewheeler,person
+friend,friends,person
+fugitive,fugitives,person
+fuzz,person
+gainer,gainers,person
+galoot,person
+gambler,gamblers,person
+gaoler,person
+gatekeeper,gatekeepers,person
+gatherer,gatherers,person
+gay,gays,person
+geezer,geezers,person
+geisha girl,female
+geisha,geishas,female
+gem,gems,person
+Gemini,person
+gendarme,person
+gentile,gentiles,person
+gentleman,gentlemen,person
+gentlewoman,gentlewomen,person
+girl,girls,female
+girlfriend,girlfriends,female
+Goat,person
+gold digger,person
+golden boy,male
+good guy,male
+good person,person
+granter,person
+grass widower,person
+gravida,gravidas,person
+graybeard,person
+greeter,person
+greybeard,male
+grinner,person
+groaner,person
+grownup,grownups,person
+grunter,person
+guesser,guessers,person
+guinea pig,guinea pigs,person
+gunner,gunners,person
+guy,guys,male
+habitant,habitants,person
+handicapped person,person
+harlot,harlots,female
+hater,person
+he-man,male
+head nurse,person
+Herr,person
+heterosexual person,person
+heterosexual,heterosexuals,person
+hombre,male
+Homo erectus,person
+Homo habilis,person
+Homo rhodesiensis,person
+Homo sapiens neanderthalensis,person
+Homo sapiens,person
+Homo soloensis,person
+homo,homos,male
+homophile,homophiles,person
+homosexual,homosexuals,male
+homunculus,homunculi,person
+Hooray Henry,person
+hope,hopes,person
+hoper,person
+houri,person
+housefather,male
+huddler,person
+hugger,huggers,person
+human beings,person
+human race,person
+humanity,person
+humankind,person
+humans,person
+hunk,hunks,person
+husband,husbands,male
+image,images,person
+imitator,imitators,person
+immune,immunes,person
+inamorata,person
+inamorato,person
+indigen,person
+indigene,indigenes,person
+individualist,individualists,person
+inductee,inductees,person
+indweller,person
+inexperienced person,person
+inhabitant,inhabitants,person
+innocent,innocents,person
+inspector general,inspectors general,person
+inspector,inspectors,person
+insured person,person
+insured,insureds,person
+intellect,intellects,person
+intellectual,intellectuals,person
+interpreter,interpreters,person
+introvert,introverts,person
+investigator,investigators,person
+iron man,iron men,male
+ironman,ironmen,male
+ironside,person
+jailer,jailers,person
+jailor,person
+Jat,Jats,person
+jewel,jewels,person
+jezebel,person
+jilt,person
+jumper,jumpers,person
+junior,juniors,person
+juvenile person,person
+juvenile,juveniles,person
+killer,killers,person
+kink,kinks,person
+kneeler,kneelers,person
+knocker,person
+knockout,knockouts,person
+knower,knowers,person
+ladino,person
+lady friend,female
+lady of pleasure,female
+lady,ladies,female
+large person,person
+Latin,Latins,person
+laugher,person
+lawman,lawmen,male
+learner,learners,person
+leatherneck,person
+left-hander,person
+lefty,lefties,person
+Leo,Leos,person
+Libra,person
+lieutenant,lieutenants,person
+life,lives,person
+lightning rod,person
+Lion,person
+literate person,person
+literate,literates,person
+liver,livers,person
+longer,person
+look-alike,person
+looker,lookers,person
+loose cannon,person
+lover,lovers,person
+lulu,person
+ma'am,female
+ma,female
+machine gunner,person
+machine,machines,person
+macho-man,male
+madam,madams,female
+maenad,person
+maid of honor,female
+mailer,mailers,person
+maimer,maimers,person
+malcontent,malcontents,person
+male parent,male
+male person,male
+male,males,male
+mama,mamas,female
+mamma,mammas,female
+mammy,female
+man jack,male
+man,men,male
+mangler,person
+manipulator,manipulators,person
+mankind,person
+mantrap,female
+Marine,person
+married,marrieds,person
+masturbator,masturbators,person
+match,matches,person
+mate,mates,person
+mater,maters,person
+materfamilias,female
+matriarch,matriarchs,female
+matron,matrons,female
+measurer,measurers,person
+mediocrity,mediocrities,person
+mesomorph,mesomorphs,person
+mestiza,person
+mestizo,mestizos,person
+Methuselah,Methuselahs,person
+middle-aged man,male
+middlebrow,person
+military adviser,person
+military advisor,person
+military officer,person
+military policeman,male
+military volunteer,person
+minx,minxes,female
+miracle man,male
+miracle worker,person
+misogamist,person
+miss,misses,female
+missy,missies,female
+mixed-blood,person
+modern,moderns,person
+modifier,modifiers,person
+mollycoddler,mollycoddlers,person
+mom,moms,female
+momma,mommas,female
+mommy,mommies,female
+money dealer,person
+money handler,person
+monolingual,monolinguals,person
+Monsieur,person
+mother figure,female
+mother hen,female
+mother,mothers,female
+motorcycle cop,person
+motorcycle policeman,male
+Mountie,person
+mouse,mice,female
+mover and shaker,person
+MP,MPs,person
+mum,mums,female
+mummy,mummies,female
+muscle builder,person
+muscle-builder,person
+musclebuilder,person
+muscleman,musclemen,male
+mutilator,mutilators,person
+namer,namers,person
+namesake,namesakes,person
+nanny,nannies,person
+narc,narcs,person
+narcotics agent,person
+nark,narks,person
+national,nationals,person
+Native American,Native Americans,person
+native,natives,person
+navigator,navigators,person
+navy man,male
+Neandertal man,person
+Neandertal,Neandertals,person
+Neanderthal man,person
+Neanderthal,Neanderthals,person
+needer,person
+neglecter,person
+Negro,Negros,person
+Negroid,Negroids,person
+neighbor,neighbors,person
+neighbour,neighbours,person
+neutral,neutrals,person
+nonagenarian,nonagenarians,person
+noncom,noncoms,person
+noncombatant,noncombatants,person
+noncommissioned officer,noncommissioned officers,person
+noncompliant,person
+nondescript,nondescripts,person
+nondrinker,nondrinkers,person
+nonmember,nonmembers,person
+nonparticipant,nonparticipants,person
+nonpartisan,nonpartisans,person
+nonpartizan,person
+nonperson,nonpersons,person
+nonreligious person,person
+nonresident,nonresidents,person
+nonsmoker,nonsmokers,person
+nonworker,nonworkers,person
+nude person,person
+nude,nudes,person
+nullipara,nulliparas,person
+nurse,nurses,person
+nursemaid,nursemaids,female
+nurser,nursers,person
+nymph,nymphs,female
+nymphet,female
+objector,objectors,person
+observer,observers,person
+occultist,occultists,person
+occupier,occupiers,person
+octogenarian,octogenarians,person
+officer,officers,person
+old boy,male
+old codger,male
+old geezer,male
+old guard,person
+old hand,person
+old lady,female
+old maid,female
+old man of the mountain,male
+old man,male
+old master,male
+old person,person
+old stager,person
+old woman,female
+onanist,onanists,person
+opener,openers,person
+optimist,optimists,person
+orphan,orphans,person
+ostrich,ostriches,person
+ouster,person
+outcaste,person
+outdoorsman,outdoorsmen,male
+owner,owners,person
+pa,male
+pal,pals,male
+pamperer,person
+pansexual,person
+papa,papas,male
+pappa,male
+para I,person
+pardoner,person
+partner,partners,person
+party,parties,person
+passer,passers,person
+pater,paters,person
+paterfamilias,patresfamilias,male
+patriarch,patriarchs,male
+patrolman,patrolmen,male
+peach,peaches,person
+peer,peers,person
+perceiver,perceivers,person
+percher,person
+percipient,person
+person of color,person
+person of colour,person
+person,persons,person
+persona non grata,personae non gratae,person
+personage,person
+personification,personifications,person
+perspirer,person
+Peter Pan,person
+philanderer,philanderers,person
+philosopher,philosophers,person
+picker,pickers,person
+pig,pigs,person
+Pisces,person
+pisser,person
+planner,planners,person
+playfellow,male
+playmate,playmates,female
+police constable,person
+police detective,person
+police lieutenant,person
+police matron,person
+police officer,police officers,person
+police sergeant,person
+policeman,policemen,male
+policewoman,policewomen,female
+pop,pops,male
+posseman,male
+possessor,possessors,person
+posturer,person
+powderer,person
+precursor,precursors,person
+preserver,preservers,person
+prickteaser,person
+primipara,primiparas,person
+primitive person,person
+primitive,primitives,person
+prison guard,person
+probation officer,probation officers,person
+prof,profs,person
+professor,professors,person
+proponent,proponents,person
+propositus,propositi,person
+prospect,prospects,person
+prostitute,prostitutes,person
+protester,protesters,person
+public relations person,person
+puerpera,person
+purser,pursers,person
+pursuer,pursuers,person
+pussycat,person
+quadripara,quadriparas,person
+quarter,quarters,person
+quester,person
+quintipara,person
+quitter,quitters,person
+radical,radicals,person
+Ram,person
+Ranger,person
+ranger,rangers,person
+ravisher,person
+realist,realists,person
+recoverer,recoverers,person
+rectifier,rectifiers,person
+red-header,person
+redhead,redheads,person
+redheader,person
+registrant,registrants,person
+relation,relations,person
+relative,relatives,person
+reliever,relievers,person
+repeater,repeaters,person
+rescuer,rescuers,person
+rester,person
+restrainer,restrainers,person
+revenant,person
+Rhodesian man,person
+rich person,person
+right hander,person
+right-hander,person
+righthander,righthanders,person
+riser,risers,person
+romanticist,romanticists,person
+romper,person
+roundhead,person
+runaway,runaways,person
+rusher,person
+Sagittarius,Sagittariuses,person
+sailing master,person
+sailor boy,male
+sailor,sailors,person
+saluter,person
+Samson,Samsons,person
+saver,savers,person
+scholar,scholars,person
+Scorpio,Scorpios,person
+Scorpion,person
+scourge,scourges,person
+scrag,scrags,person
+scrapper,scrappers,person
+scratcher,person
+screw,screws,person
+searcher,searchers,person
+second person,person
+second-rater,person
+seeder,seeders,person
+seeker,seekers,person
+segregate,person
+selector,selectors,person
+self,selves,person
+Senhor,person
+sensualist,sensualists,person
+sentimentalist,sentimentalists,person
+septuagenarian,septuagenarians,person
+sergeant at arms,person
+sergeant,sergeants,person
+serjeant-at-arms,person
+sex object,person
+sexagenarian,sexagenarians,person
+shaker,shakers,person
+shaver,shavers,person
+sheriff,sheriffs,person
+shiksa,person
+shikse,person
+shipboard soldier,person
+shitter,person
+shoofly,person
+showman,showmen,male
+signatory,signatories,person
+signer,signers,person
+significant other,significant others,person
+signior,person
+signor,person
+signore,person
+simple,simples,person
+simpleton,simpletons,person
+sir,sirs,male
+siren,sirens,person
+sister,sisters,female
+six-footer,person
+skidder,skidders,person
+skin and bones,person
+Slav,Slavs,person
+slave,slaves,person
+slayer,slayers,person
+sleepyhead,sleepyheads,person
+slider,sliders,person
+slipper,slippers,person
+slobberer,person
+sloucher,person
+small person,person
+smasher,person
+smiler,person
+smotherer,person
+sneezer,sneezers,person
+sniffer,sniffers,person
+sniffler,person
+sniveler,person
+snuffer,snuffers,person
+snuffler,person
+social dancer,person
+socialiser,socialisers,person
+socializer,socializers,person
+solicitor general,person
+sort,sorts,person
+sounding board,person
+southpaw,person
+speed cop,person
+sphinx,sphinxes,person
+spitter,spitters,person
+spoiler,spoilers,person
+sport,sports,person
+sporting lady,female
+spousal equivalent,person
+spouse equivalent,person
+sprawler,person
+spurner,person
+squint-eye,person
+squinter,squinters,person
+squirmer,person
+state trooper,person
+steward,stewards,person
+stiff,stiffs,person
+stifler,person
+stigmatic,person
+stigmatist,person
+stooper,person
+straight person,person
+straight,straights,person
+strapper,strappers,person
+striper,person
+struggler,strugglers,person
+stud,male
+stunner,stunners,person
+subject,subjects,person
+substance abuser,person
+succeeder,succeeders,person
+success,successes,person
+supercargo,person
+supermom,female
+supernumerary,supernumeraries,person
+surrenderer,person
+surrogate mother,person
+survivalist,survivalists,person
+survivor,survivors,person
+suspect,suspects,person
+swain,person
+sweater,sweaters,person
+sweetheart,sweethearts,female
+sylph,sylphs,person
+tagger,taggers,person
+tapper,tappers,person
+tart,tarts,female
+Tarzan,person
+Taurus,Tauruses,person
+tease,female
+tec,person
+tempter,tempters,male
+temptress,temptresses,female
+termer,person
+terror,terrors,person
+testate,testates,person
+testator,testators,person
+Texas Ranger,person
+thin person,person
+third person,person
+third-rater,person
+thirster,person
+threat,threats,person
+thrower,throwers,person
+tiger,tigers,person
+topper,toppers,person
+toreador,person
+totemist,person
+toucher,touchers,person
+tovarich,person
+tovarisch,person
+traffic cop,person
+transexual,person
+transfer,transfers,person
+transferee,transferees,person
+transsexual,transsexuals,person
+transvestite,transvestites,person
+trier,triers,person
+trooper,troopers,person
+turner,turners,person
+turnkey,turnkeys,person
+Twin,person
+tyrant,tyrants,person
+uncle,uncles,male
+undoer,person
+unfastener,person
+unfortunate person,person
+unfortunate,unfortunates,person
+unmarried man,male
+unmarried woman,female
+unperson,person
+unraveler,person
+unraveller,person
+unskilled person,person
+untier,person
+unusual person,person
+unwelcome person,person
+urinator,person
+user,users,person
+vamp,vamps,person
+vamper,person
+vanisher,person
+vestal,person
+vet,vets,person
+veteran soldier,person
+veteran,veterans,person
+victim,victims,person
+Victorian,Victorians,person
+virago,viragos,person
+Virgin,person
+Virgo,Virgos,person
+visionary,visionaries,person
+visually impaired person,person
+voider,voiders,person
+voluntary,voluntaries,person
+volunteer,volunteers,person
+Wac,person
+waiter,waiters,person
+waker,wakers,person
+walk-in,person
+wanter,person
+ward,wards,person
+warden,wardens,person
+warder,warders,person
+warrant officer,person
+watcher,watchers,person
+Water Bearer,person
+weakling,weaklings,person
+wealthy person,person
+weight gainer,person
+welcomer,person
+white man,white men,male
+white person,person
+white woman,female
+white,whites,person
+whore,whores,female
+widow woman,female
+widow,widows,female
+widower,widowers,person
+widowman,person
+wife,wives,female
+wiggler,wigglers,person
+wight,person
+windower,male
+winker,person
+winner,winners,person
+withholder,withholders,person
+witness,witnesses,person
+woman of the street,female
+woman,women,female
+womaniser,person
+womanizer,womanizers,person
+wonder boy,male
+wonder woman,female
+worker,workers,person
+working girl,female
+world,worlds,person
+worldling,person
+wriggler,wrigglers,person
+wuss,person
+yawner,person
+yearner,person
+yellow man,male
+yellow woman,female
+yielder,person
+young buck,male
+young lady,female
+young man,young men,male
+young woman,female
+Mr.,male
+mister,male
+miss,female
+Mrs.,female
+Ms.,female

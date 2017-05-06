@@ -1,0 +1,68 @@
+aeroplane,aeroplanes,aircraft
+aircraft,aircrafts,aircraft
+airliner,airliners,aircraft
+airplane,airplanes,aircraft
+amphibian,amphibians,aircraft
+amphibious aircraft,aircraft
+attack aircraft,aircraft
+autogiro,aircraft
+autogyro,aircraft
+balloon,balloons,aircraft
+biplane,biplanes,aircraft
+bogey,bogeys,aircraft
+bogie,bogies,aircraft
+bogy,bogies,aircraft
+cargo helicopter,aircraft
+chopper,choppers,aircraft
+cruise missile,aircraft
+drone,drones,aircraft
+eggbeater,eggbeaters,aircraft
+fighter,fighters,aircraft
+fighter aircraft,aircraft
+glider,gliders,aircraft
+gyroplane,aircraft
+hang glider,hang gliders,aircraft
+hangar queen,aircraft
+heavier-than-air craft,aircraft
+helicopter,helicopters,aircraft
+hot-air balloon,aircraft
+hydroplane,hydroplanes,aircraft
+jet,jets,aircraft
+jet-propelled plane,aircraft
+jet plane,aircraft
+lighter-than-air craft,aircraft
+lingerer,aircraft
+loiterer,aircraft
+meteorological balloon,aircraft
+military plane,aircraft
+monoplane,monoplanes,aircraft
+multiengine airplane,aircraft
+multiengine plane,aircraft
+ornithopter,aircraft
+orthopter,aircraft
+pilotless aircraft,aircraft
+plane,planes,aircraft
+plodder,plodders,aircraft
+potterer,aircraft
+propeller plane,aircraft
+putterer,aircraft
+radio-controlled aircraft,aircraft
+reconnaissance plane,aircraft
+sailplane,aircraft
+seaplane,aircraft
+shuttle helicopter,aircraft
+single-rotor helicopter,aircraft
+ski-plane,aircraft
+skyhook,skyhooks,aircraft
+slowcoach,aircraft
+slowpoke,slowpokes,aircraft
+stealth aircraft,aircraft
+stealth bomber,aircraft
+stealth fighter,aircraft
+stick-in-the-mud,aircraft
+straggler,stragglers,aircraft
+strayer,strayers,aircraft
+tanker plane,aircraft
+trial balloon,aircraft
+warplane,aircraft
+whirlybird,whirlybirds,aircraft
