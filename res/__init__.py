@@ -9,3 +9,4 @@ def filename(file):
 # get all files in a directory
 def directory_content(folder):
     return os.scandir(os.path.join(os.path.dirname(__file__), folder))
+

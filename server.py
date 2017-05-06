@@ -1,11 +1,25 @@
 #!/usr/bin/env python
 
+import os
+import logging
+
 from flask import Flask
 from flask import request
 from kai.parser.parser import Parser
 from kai.parser.parser_model import JsonSystem
+from kai.configuration import get_section_dict
+from kai.cassandra.cluster import Cassandra
+
 import json
 
+
+# setup log level for cassandra driver
+logging.getLogger('cassandra').setLevel(logging.ERROR)
+
+# setup cassandra from configuration
+configuration_file = os.path.join(os.path.dirname(__file__), 'settings.ini')
+cassandra_config = get_section_dict(configuration_file, 'Cassandra')
+cassandra = Cassandra(cassandra_config)
 
 app = Flask(__name__)
 parser = Parser()
@@ -25,15 +39,11 @@ def api_parse():
         sentence_list = parser.parse_document(text)
         return app.response_class(
             response=json.dumps(sentence_list, cls=JsonSystem),
-            status=200,
-            mimetype='application/json'
-        )
+            status=200, mimetype='application/json')
     else:
         return app.response_class(
             response=json.dumps({'error': 'text missing / empty'}),
-            status=500,
-            mimetype='application/json'
-        )
+            status=500, mimetype='application/json')
 
 
 if __name__ == '__main__':
