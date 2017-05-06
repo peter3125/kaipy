@@ -60,12 +60,16 @@ class Parser:
             token_list.append(Token(text, token.i, token.tag_, token.dep_, ancestors, semantic))
         return Sentence(token_list)
 
+    # remove spaces from a sentence
+    def remove_spaces(self, sent: Sentence):
+        return Sentence([item for item in sent.token_list if item.text != ' '])
+
     # convert a document to a set of entity tagged, pos tagged, and dependency parsed entities
     def parse_document(self, text):
         doc = self.en_nlp(text)
         sentence_list = []
         for sent in doc.sents:
-            sentence = self.convert_sentence(sent)
+            sentence = self.remove_spaces(self.convert_sentence(sent))
             sentence_list.append(sentence)
         self.ll.resolve_pronouns(sentence_list)  # resolve anaphora where possible
         return get_longest_word_sequence_for_list(sentence_list)
