@@ -20,7 +20,7 @@ def get_index():
 # curl -H "Content-Type: plain/text" -X POST --data @file.txt http://localhost:5000/api/parser
 @app.route('/api/parse', methods=['POST'])
 def api_parse():
-    text = str(request.data)  # or read it from the post data
+    text = request.data.decode('utf-8')  # body text to text
     if len(text) > 0:
         sentence_list = parser.parse_document(text)
         return app.response_class(

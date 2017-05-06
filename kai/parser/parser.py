@@ -4,7 +4,7 @@ import res
 import en_core_web_sm
 from kai.lappin_leass.algorithm import LappinLeass
 from kai.parser.parser_model import Token, Sentence
-
+from kai.parser.compound_noun import get_longest_word_sequence_for_list
 
 logging.info("loading spacy")
 nlp = en_core_web_sm.load()
@@ -54,7 +54,7 @@ class Parser:
                 ancestors.append(str(an.i))
             text = str(token)
             semantic = ''
-            if token.tag == "NN" or token.tag == "NNS" or token.tag == "NNP" or token.tag == "NNPS":
+            if token.tag_ == "NN" or token.tag_ == "NNS" or token.tag_ == "NNP" or token.tag_ == "NNPS":
                 if text in self.semantics:
                     semantic = self.semantics[text]
             token_list.append(Token(text, token.i, token.tag_, token.dep_, ancestors, semantic))
@@ -68,4 +68,4 @@ class Parser:
             sentence = self.convert_sentence(sent)
             sentence_list.append(sentence)
         self.ll.resolve_pronouns(sentence_list)  # resolve anaphora where possible
-        return sentence_list
+        return get_longest_word_sequence_for_list(sentence_list)
