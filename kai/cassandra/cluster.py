@@ -20,9 +20,10 @@ class Cassandra:
                 self.cluster = Cluster([self.host], port=self.port)
                 # create keyspace if does not exist
                 self.session = self.cluster.connect()
-                e_str = "CREATE KEYSPACE IF NOT EXISTS %s WITH REPLICATION = { 'class' : 'SimpleStrategy', 'replication_factor' : %s };" \
+                cql_str = "CREATE KEYSPACE IF NOT EXISTS %s WITH REPLICATION = { 'class' : 'SimpleStrategy', 'replication_factor' : %s };" \
                        % (self.keyspace, self.rf)
-                self.session.execute(e_str)
+                logging.debug(cql_str)
+                self.session.execute(cql_str)
                 self.session.set_keyspace(self.keyspace)  # switch to keyspace
                 error = False
             except Exception as ex:
@@ -41,7 +42,8 @@ class Cassandra:
                 if not line.startswith("//"):
                     list.append(line)
                     if line.endswith(");"):
-                        cql_str = ' '.join(list).replace('<ks>', self.keyspace)
+                        cql_str = ' '.join(list).replace('<ks>', self.keyspace).strip()
+                        logging.debug(cql_str)
                         self.session.execute(cql_str)
                         list = []
         logging.info("db.cql done")
@@ -70,6 +72,7 @@ class Cassandra:
                 cql_str += "'" + str(pg_value) + "'"
         if pg_size > 0:
             cql_str += " LIMIT " + str(pg_size)
+        logging.debug(cql_str)
         while True:
             try:
                 result_list = []
@@ -97,6 +100,7 @@ class Cassandra:
             else:
                 cql_str += "'" + str(value) + "'"
             counter += 1
+        logging.debug(cql_str)
         error = True
         while error:
             try:
@@ -134,6 +138,7 @@ class Cassandra:
     # execute drop keyspace, used by tests only
     def db_drop_keyspace(self):
         cql_str = "DROP KEYSPACE %s" % self.keyspace
+        logging.debug(cql_str)
         error = True
         while error:
             try:
@@ -143,35 +148,3 @@ class Cassandra:
                 logging.error('cassandra drop keyspace error (' + str(ex) + '), waiting 5 seconds')
                 time.sleep(5)
                 error = True
-
-
-# test
-if __name__ == '__main__':
-    cassandra = Cassandra({'keyspace': 'kai_test', 'rf': 1, 'host': 'localhost', 'port': 9042})
-
-    # word text, tag text, shard int, sentence_id uuid, offset int, topic text, score double,
-    id_list =[]
-    for i in range(0,10):
-        id = uuid.uuid4()
-        cassandra.db_insert("word_index", {"sentence_id": id, "word": "test", "tag": "NN",
-                                           "shard": 0, "offset": i, "topic": "test", "score": 1.0})
-        id_list.append(id)
-
-    # select with no limits, no pagination
-    result_list = cassandra.db_select("word_index", ["sentence_id", "offset", "topic", "score"], {"word": "test", "shard": 0})
-    print(result_list)
-    print(len(result_list))
-
-    # select with limit
-    result_list = cassandra.db_select("word_index", ["sentence_id", "offset", "topic", "score"], {"word": "test", "shard": 0}, pg_size=3)
-    print(result_list)
-    print(len(result_list))
-
-    # select with offset and limit
-    result_list = cassandra.db_select("word_index", ["sentence_id", "offset", "topic", "score"], {"word": "test", "shard": 0, "topic": "test"},
-                                      pg_field="sentence_id", pg_value=id_list[5], pg_size=3)
-    print(result_list)
-    print(len(result_list))
-
-    cassandra.db_delete("word_index", {"sentence_id": id_list[0], "topic": "test", "word": "test", "shard": 0})
-    cassandra.db_drop_keyspace()
