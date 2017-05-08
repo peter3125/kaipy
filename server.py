@@ -1,6 +1,7 @@
 #!/usr/bin/env python
 
 import os
+import logging
 
 from flask import Flask
 from flask import request
@@ -10,6 +11,12 @@ from kai.configuration import get_section_dict
 from kai.cassandra.cluster import Cassandra
 
 import json
+
+
+from kai.aiml.manager import aim_set
+logging.info(len(aim_set))
+
+
 
 
 # setup cassandra from configuration
