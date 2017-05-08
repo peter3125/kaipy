@@ -1,7 +1,6 @@
 #!/usr/bin/env python
 
 import os
-import logging
 
 from flask import Flask
 from flask import request
@@ -12,9 +11,6 @@ from kai.cassandra.cluster import Cassandra
 
 import json
 
-
-# setup log level for cassandra driver
-logging.getLogger('cassandra').setLevel(logging.ERROR)
 
 # setup cassandra from configuration
 configuration_file = os.path.join(os.path.dirname(__file__), 'settings.ini')
