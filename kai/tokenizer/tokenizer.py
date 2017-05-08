@@ -6,6 +6,11 @@ from kai.tokenizer.constants import is_punctuation, is_numeric, is_ABC
 
 
 class Tokenizer:
+    def __init__(self):
+        self.punc = {}
+        for ch in "!@#$%^&*(){}[],.<>?":
+            self.punc[ch] = True
+
     # turn a string into a list of tokens using pre-defined constants
     def tokenize_string(self, in_str: str) -> List[str]:
         token_list = []
@@ -112,11 +117,18 @@ class Tokenizer:
 
         return token_list
 
-
     # remove spaces from a list of tokens
     def filter_spaces(self, token_list: List[str]) -> List[str]:
         new_token_list = []
         for token in token_list:
             if token != " ":
+                new_token_list.append(token)
+        return new_token_list
+
+    # remove punctuation from a set
+    def filter_punctuation(self, token_list: List[str]) -> List[str]:
+        new_token_list = []
+        for token in token_list:
+            if token not in self.punc:
                 new_token_list.append(token)
         return new_token_list
