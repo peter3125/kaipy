@@ -1,5 +1,5 @@
 import logging
-import res
+import kai.res
 
 import en_core_web_sm
 from kai.lappin_leass.algorithm import LappinLeass
@@ -12,7 +12,7 @@ logging.info("spacy loaded")
 
 logging.info("loading semantics")
 semantics = dict()  # noun -> semantic
-for file in res.directory_content('semantics'):
+for file in kai.res.directory_content('semantics'):
     with open(file, 'r') as reader:
         for line in reader:
             line = line.strip()

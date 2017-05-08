@@ -1,6 +1,6 @@
 import logging
 import time
-import res
+import kai.res
 import uuid
 from typing import List
 from cassandra.cluster import Cluster
@@ -35,7 +35,7 @@ class Cassandra:
     # setup the db using our db.cql file
     def _setup(self):
         logging.info("setting up db.cql")
-        with open(res.filename('cql/db.cql')) as reader:
+        with open(kai.res.filename('cql/db.cql')) as reader:
             list = []
             for line in reader:
                 line = line.strip()

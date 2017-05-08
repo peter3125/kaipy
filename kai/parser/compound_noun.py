@@ -1,6 +1,6 @@
 from typing import List
 import logging
-import res
+import kai.res
 
 from kai.parser.parser_model import Token, Sentence
 
@@ -33,7 +33,7 @@ def _add_compound(word):
         new_word = ' '.join(final_list)
         compoundWord[new_word.lower()] = final_list
 
-with open(res.filename('data/compound-nouns.txt')) as reader:
+with open(kai.res.filename('data/compound-nouns.txt')) as reader:
     for line in reader:
         line = line.strip()
         if len(line) > 0:
