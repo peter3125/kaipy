@@ -14,3 +14,8 @@ class TokenizerTest(unittest.TestCase):
     def test_tokenizer_1(self):
         token_list = self.tokenizer.tokenize_string("This, is a  test string.  Is what I mean   to talk about?")
         self.assertTrue(len(token_list) == 26)
+
+    # and test filter spaces
+    def test_tokenizer_2(self):
+        token_list = self.tokenizer.filter_spaces(self.tokenizer.tokenize_string("This, is a  test string.  Is what I mean   to talk about?"))
+        self.assertTrue(len(token_list) == 15)
