@@ -6,9 +6,21 @@ from typing import List
 from cassandra.cluster import Cluster
 
 
+# the active cassandra instance
+cassandra_db = None
+
+def cassy():
+    global cassandra_db
+    return cassandra_db
+
+def set_cassy(db):
+    global cassandra_db
+    cassandra_db = db
+
+
 # Cassandra access;  provide create/drop keyspace with tables, select paginated, delete, and insert
 class Cassandra:
-    def __init__(self, config_dict):
+    def __init__(self, config_dict, run_setup = True):
         self.keyspace = config_dict['keyspace']
         self.rf = int(config_dict['rf'])
         self.host = config_dict['host']
@@ -30,11 +42,12 @@ class Cassandra:
                 logging.error('cassandra not responding (' + str(ex) + '), waiting 10 seconds')
                 error = True
                 time.sleep(10)
-        self._setup()
+        if run_setup:
+            self._setup()
 
     # setup the db using our db.cql file
     def _setup(self):
-        logging.info("setting up db.cql")
+        logging.info("setting up db.cql for " + self.keyspace)
         with open(kai.res.filename('cql/db.cql')) as reader:
             list = []
             for line in reader:
@@ -46,7 +59,7 @@ class Cassandra:
                         logging.debug(cql_str)
                         self.session.execute(cql_str)
                         list = []
-        logging.info("db.cql done")
+        logging.info("db.cql done for " + self.keyspace)
 
     # execute a select with optional pagination
     def db_select(self, table, columns: List[str], where: dict,
@@ -137,6 +150,7 @@ class Cassandra:
 
     # execute drop keyspace, used by tests only
     def db_drop_keyspace(self):
+        logging.info("dropping keyspace " + self.keyspace)
         cql_str = "DROP KEYSPACE %s" % self.keyspace
         logging.debug(cql_str)
         error = True

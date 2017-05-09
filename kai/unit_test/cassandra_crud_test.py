@@ -2,7 +2,7 @@ import unittest
 import uuid
 import logging
 
-from kai.cassandra.cluster import Cassandra
+from kai.cassandra.cluster import Cassandra, set_cassy
 
 
 # test cassandra access
@@ -14,6 +14,11 @@ class CassandraCrudTest(unittest.TestCase):
     # test cassandra complete CRUD set
     def test_cassandra(self):
         logging.getLogger('cassandra').setLevel(logging.ERROR)
+        # remove any pre-existing data
+        cassandra = Cassandra({'keyspace': 'kai_test', 'rf': 1, 'host': 'localhost', 'port': 9042}, run_setup=False)
+        set_cassy(cassandra)  # set cassandra for API
+        cassandra.db_drop_keyspace()
+        # then re-create
         cassandra = Cassandra({'keyspace': 'kai_test', 'rf': 1, 'host': 'localhost', 'port': 9042})
 
         # word text, tag text, shard int, sentence_id uuid, offset int, topic text, score double,
@@ -41,4 +46,34 @@ class CassandraCrudTest(unittest.TestCase):
         self.assertTrue(len(result_list) > 0)
 
         cassandra.db_delete("word_index", {"sentence_id": id_list[0], "topic": "test", "word": "test", "shard": 0})
-        cassandra.db_drop_keyspace()
+
+        self._test_session()  # test db session system
+        self._test_indexing()  # test db indexing system
+
+        cassandra.db_drop_keyspace()  # done - remove data
+
+    # test the session components of the database (private, not executed as a test)
+    def _test_session(self):
+        import kai.cassandra.session as cs
+        import uuid
+
+        guid1 = uuid.uuid4()
+        cs.save(guid1, "a@b.c", "Rock", "de Vocht")
+
+        session = cs.get(guid1)
+        self.assertTrue(session is not None)
+        self.assertTrue(session.surname == "de Vocht")
+        self.assertTrue(session.first_name == "Rock")
+        self.assertTrue(session.email == "a@b.c")
+
+        cs.delete(guid1)
+        session = cs.get(guid1)
+        self.assertTrue(session is None)
+
+        guid2 = uuid.uuid4()
+        session_2 = cs.get(guid2)
+        self.assertTrue(session_2 is None)
+
+    # test the indexing and unindexing system
+    def _test_indexing(self):
+        logging.info("todo: test indexing")

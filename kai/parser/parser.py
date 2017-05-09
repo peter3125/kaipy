@@ -1,10 +1,12 @@
 import logging
 import kai.res
+from typing import List
 
 import en_core_web_sm
 from kai.lappin_leass.algorithm import LappinLeass
-from kai.parser.parser_model import Token, Sentence
-from kai.parser.compound_noun import get_longest_word_sequence_for_list
+from kai.parser.model import Token, Sentence
+from kai.lexicon.compound_noun import get_longest_word_sequence
+
 
 logging.info("loading spacy")
 nlp = en_core_web_sm.load()
@@ -23,6 +25,37 @@ for file in kai.res.directory_content('semantics'):
                     for word in words:
                         semantics[word] = sem_str[-1].lower()
 logging.info("semantics loaded")
+
+# verbs for question detection
+verbs = {"do", "did", "does", "are", "is", "was", "have", "had"}
+
+
+# is the token_list a question
+def is_question(token_list: List[Token]) -> bool:
+    if len(token_list) > 1:  # min sentence size
+        if token_list[-1].text == "?":
+            return True
+
+        token0 = token_list[0]
+        if "VB" in token0.tag:
+            if token0.text.lower() in verbs:
+                return True
+        # any of the tokens is a WDT tag?
+        for token in token_list:
+            if token.tag == "WDT" or token.tag == "WP":
+                return True
+    return False
+
+
+# is the sentence an imperative sentence?
+def is_imperative(token_list: List[Token]) -> bool:
+    if len(token_list) > 1:  # min sentence size
+        if token_list[-1].text == "?":
+            return False
+        token0 = token_list[0]
+        if token0.tag == "VB" or token0.tag == "VBP":
+            return True
+    return False
 
 
 # the text parser
@@ -65,11 +98,15 @@ class Parser:
         return Sentence([item for item in sent.token_list if item.text != ' '])
 
     # convert a document to a set of entity tagged, pos tagged, and dependency parsed entities
-    def parse_document(self, text):
+    def parse_document(self, text) -> List[Sentence]:
         doc = self.en_nlp(text)
         sentence_list = []
         for sent in doc.sents:
             sentence = self.remove_spaces(self.convert_sentence(sent))
             sentence_list.append(sentence)
         self.ll.resolve_pronouns(sentence_list)  # resolve anaphora where possible
-        return get_longest_word_sequence_for_list(sentence_list)
+        return_sentence_list = []
+        for sentence in sentence_list:
+            return_sentence_list.append(Sentence(get_longest_word_sequence(sentence.token_list)))
+        return return_sentence_list
+

@@ -26,6 +26,13 @@ class Sentence:
     def get(self, i: int) -> Token:
         return self.token_list[i]
 
+    # get the first semantic found in this sentence
+    def get_first_semantic(self):
+        for token in self.token_list:
+            if len(token.semantic) > 0:
+                return token.semantic
+        return ""
+
 
 # simple json encoder
 class JsonSystem(json.JSONEncoder):

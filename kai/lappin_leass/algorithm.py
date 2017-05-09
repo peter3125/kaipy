@@ -2,7 +2,7 @@ import logging
 import math
 from typing import List
 
-from kai.parser.parser_model import Token, Sentence
+from kai.parser.model import Token, Sentence
 
 
 # TODO:  pleonastic pronoun detection

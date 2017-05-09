@@ -2,11 +2,10 @@ from typing import List
 import logging
 import kai.res
 
-from kai.parser.parser_model import Token, Sentence
+from kai.parser.model import Token
 
 
-logging.info("loading compound nouns")
-compoundWord = dict()
+compound_set = dict()
 
 # add a word as a compound word
 def _add_compound(word):
@@ -31,14 +30,15 @@ def _add_compound(word):
             final_list.append(part)
     if len(final_list) > 0:
         new_word = ' '.join(final_list)
-        compoundWord[new_word.lower()] = final_list
+        compound_set[new_word.lower()] = final_list
 
-with open(kai.res.filename('data/compound-nouns.txt')) as reader:
+# loader
+logging.info("loading compound nouns")
+with open(kai.res.filename("lexicon/compound_nouns.txt")) as reader:
     for line in reader:
         line = line.strip()
         if len(line) > 0:
             _add_compound(line)
-
 logging.info("compound nouns loaded")
 
 
@@ -46,7 +46,7 @@ logging.info("compound nouns loaded")
 class MatchingResult:
     # maximum length of a word made up
     maxWordConstituentLength = 10
-
+    # structure
     def __init__(self, new_index: int, matching_token: Token):
         self.new_index = new_index
         self.matching_token = matching_token
@@ -67,31 +67,6 @@ def to_string(list: List[str]) -> str:
         prev = curr
     return result_str.strip()
 
-
-# find the longest sequence of words for a compound noun
-def get_longest_word_sequence(token_list: List[Token]) -> List[Token]:
-    new_token_list = []
-    remap = dict()
-    i = 0
-    while i < len(token_list):
-        word = token_list[i].text
-        if len(word) > 0:
-            result = _get_largest_matching(token_list, i, remap)
-            if result.new_index > i:
-                new_token_list.append(result.matching_token)
-                i = result.new_index
-            else:
-                new_token_list.append(token_list[i])
-                i += 1
-        else:
-            i += 1
-    if len(remap) > 0:
-        for token in new_token_list:
-            for j in range(0, len(token.ancestor_list)):
-                value = token.ancestor_list[j]
-                if value in remap:
-                    token.ancestor_list[j] = remap[value]
-    return new_token_list
 
 # Return the number of differences in case for two identical words
 def _diffs_in_case(str1: str, str2: str) -> int:
@@ -136,8 +111,8 @@ def _get_largest_matching(token_list: List[Token], index: int, remap: dict) -> M
         word = token.text
         if len(word) > 0:
             sb += word
-            if sb.lower() in compoundWord:
-                result_list = compoundWord[sb.lower()]
+            if sb.lower() in compound_set:
+                result_list = compound_set[sb.lower()]
                 result_size = i + 1
             sb += " "
 
@@ -150,19 +125,35 @@ def _get_largest_matching(token_list: List[Token], index: int, remap: dict) -> M
             token = token_list[offset]
         if "NN" not in token.tag:
             token = token_list[index]
-        matching_token = Token(to_string(result_list), token.index, token.tag, token.dep, token.ancestor_list,
-                               token.semantic, token.anaphora)
-        matching_token.semantic = token.semantic
+        matching_token = Token(to_string(result_list), token.index, token.tag, token.dep,
+                               token.ancestor_list, token.semantic, token.anaphora)
         for i in range(index + 1, index + result_size):
             remap[i] = index
         return MatchingResult(index + result_size, matching_token)
     return MatchingResult(index, token_list[index])
 
 
-# find the longest sequence of words for a compound noun for a set of sentences
-def get_longest_word_sequence_for_list(sentence_list: List[Sentence]) -> List[Sentence]:
-    new_sentence_list = []
-    for sentence in sentence_list:
-        new_sentence_list.append(Sentence(get_longest_word_sequence(sentence.token_list)))
-    return new_sentence_list
-
+# get the longest sequences of tokens from a list of tokens and process it as a list
+def get_longest_word_sequence(token_list: List[Token]) -> List[Token]:
+    new_token_list = []
+    remap = dict()
+    i = 0
+    while i < len(token_list):
+        word = token_list[i].text
+        if len(word) > 0:
+            result = _get_largest_matching(token_list, i, remap)
+            if result.new_index > i:
+                new_token_list.append(result.matching_token)
+                i = result.new_index
+            else:
+                new_token_list.append(token_list[i])
+                i += 1
+        else:
+            i += 1
+    if len(remap) > 0:
+        for token in new_token_list:
+            for j in range(0, len(token.ancestor_list)):
+                value = token.ancestor_list[j]
+                if value in remap:
+                    token.ancestor_list[j] = remap[value]
+    return new_token_list

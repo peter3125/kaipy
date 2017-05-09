@@ -2,7 +2,7 @@ from typing import List
 
 import unittest
 
-from kai.parser.parser_model import Token, Sentence
+from kai.parser.model import Token, Sentence
 from kai.lappin_leass.algorithm import LappinLeass
 
 

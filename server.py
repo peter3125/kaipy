@@ -8,21 +8,14 @@ from flask import request
 from kai.parser.parser import Parser
 from kai.parser.parser_model import JsonSystem
 from kai.configuration import get_section_dict
-from kai.cassandra.cluster import Cassandra
+from kai.cassandra.cluster import Cassandra, set_cassy
 
 import json
-
-
-from kai.aiml.manager import aim_set
-logging.info(len(aim_set))
-
-
-
 
 # setup cassandra from configuration
 configuration_file = os.path.join(os.path.dirname(__file__), 'settings.ini')
 cassandra_config = get_section_dict(configuration_file, 'Cassandra')
-cassandra = Cassandra(cassandra_config)
+set_cassy(Cassandra(cassandra_config))
 
 app = Flask(__name__)
 parser = Parser()

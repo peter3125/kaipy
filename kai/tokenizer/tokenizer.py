@@ -8,7 +8,7 @@ from kai.tokenizer.constants import is_punctuation, is_numeric, is_ABC
 class Tokenizer:
     def __init__(self):
         self.punc = {}
-        for ch in "!@#$%^&*(){}[],.<>?":
+        for ch in "!,.?;":
             self.punc[ch] = True
 
     # turn a string into a list of tokens using pre-defined constants

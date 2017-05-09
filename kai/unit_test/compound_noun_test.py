@@ -1,8 +1,8 @@
 import unittest
 from typing import List
 
-from kai.parser.compound_noun import get_longest_word_sequence
-from kai.parser.parser_model import Token
+from kai.lexicon.compound_noun import get_longest_word_sequence
+from kai.parser.model import Token
 
 
 # test the longest word algorithm

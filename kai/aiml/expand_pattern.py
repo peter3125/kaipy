@@ -5,7 +5,7 @@ tk = Tokenizer()
 
 
 # finish sb into the builder
-def finish(builder, sb):
+def _finish(builder, sb):
     if len(sb) > 0:
         if len(builder) == 0:
             builder.append(' '.join(sb))
@@ -22,6 +22,7 @@ def finish(builder, sb):
 
 
 # expand around brackets and stuff
+# turning e.g.  "Hello (there|my) Peter" into ["Hello there Peter", "Hello my Peter"]
 def expand_brackets(pattern: str):
     if "(" in pattern:
         token_list = tk.filter_spaces(tk.tokenize_string(pattern))
@@ -31,7 +32,7 @@ def expand_brackets(pattern: str):
         while i < len(token_list):
             text = token_list[i]
             if text == "(":
-                builder, sb = finish(builder, sb)
+                builder, sb = _finish(builder, sb)
                 item_list = []
                 j = i + 1
                 item = []
@@ -62,7 +63,7 @@ def expand_brackets(pattern: str):
                 sb.append(text)
                 i += 1
 
-        builder, sb = finish(builder, sb)
+        builder, sb = _finish(builder, sb)
         return builder
 
     else:
