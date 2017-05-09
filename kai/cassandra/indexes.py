@@ -10,7 +10,7 @@ from kai.lexicon.undesirables import is_undesirable
 # add an index into the system, and its unindex equivalent for later removal
 def add_index(sentence_id: uuid.UUID, word: str, tag: str, shard: int, topic: str, offset: int, score: float):
     # add the index
-    value_set = {"sentence_id": sentence_id, "word": word, "tag": tag, "shard": shard,
+    value_set = {"sentence_id": sentence_id, "word": word.lower(), "tag": tag, "shard": shard,
                  "offset": offset, "topic": topic, "score": score}
 
     cassy().db_insert("word_index", value_set)
@@ -18,7 +18,7 @@ def add_index(sentence_id: uuid.UUID, word: str, tag: str, shard: int, topic: st
     # add the unindex
     # url text, origin text, shard int, word text, kb text,
     # primary key((url,origin,kb), word, shard)
-    u_value_set = {"sentence_id": sentence_id, "word": word, "shard": shard}
+    u_value_set = {"sentence_id": sentence_id, "word": word.lower(), "shard": shard}
     cassy().db_insert("word_unindex", u_value_set)
 
 
@@ -79,7 +79,7 @@ def index_token_list(topic: str, shard: int, sentence_id: uuid.UUID, token_list:
         for token in token_list:
             stemmed = get_stem(token.text)
             # don't index aux verbs
-            if not is_undesirable(stemmed) and token.tag != "AUX":
+            if not is_undesirable(stemmed) and token.dep != "AUX":
                 add_index(sentence_id, stemmed, token.tag, shard, topic, offset, score)
 
                 # also index sub parts of compound words like "New York" -> "New" and "York"
@@ -143,7 +143,7 @@ def read_indexes_with_filter_for_tokens(token_list: List[Token], topic: str, sha
                                                    index.topic, index.score, i))
                         else:
                             combined_indexes[index.sentence_id] = []
-                            combined_indexes[index.Sentence_id].append(IndexMatch(index.sentence_id, index.word,
+                            combined_indexes[index.sentence_id].append(IndexMatch(index.sentence_id, index.word,
                                                                                   index.tag, index.shard, index.offset,
                                                                                   index.topic, index.score, i))
 

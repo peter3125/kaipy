@@ -76,4 +76,27 @@ class CassandraCrudTest(unittest.TestCase):
 
     # test the indexing and unindexing system
     def _test_indexing(self):
-        logging.info("todo: test indexing")
+        from kai.parser.parser import Parser
+        from kai.cassandra.indexes import index_token_list, remove_indexes
+        from kai.cassandra.indexes import read_indexes_with_filter_for_tokens
+        from kai.cassandra.indexes import get_num_search_tokens
+
+        parser = Parser()
+        sentence_id =uuid.uuid4()
+        token_list = []
+        sentence_list = parser.parse_document("This is the test text for Peter.")
+        for sentence in sentence_list:
+            token_list.extend(sentence.token_list)
+
+        # index the text
+        index_token_list("topic", 0, sentence_id, token_list)
+
+        # perform a search
+        result_set = read_indexes_with_filter_for_tokens(token_list, "topic", 0)
+        self.assertTrue(sentence_id in result_set)
+        self.assertTrue(len(result_set[sentence_id]) == get_num_search_tokens(token_list))
+
+        # remove indexes
+        remove_indexes(sentence_id, "topic")
+        result_set_2 = read_indexes_with_filter_for_tokens(token_list, "topic", 0)
+        self.assertTrue(len(result_set_2) == 0)
