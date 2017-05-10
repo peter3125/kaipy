@@ -61,6 +61,7 @@ def get_css(path):  # pragma: no cover
     else:
         return Response("resource not found", status=404)
 
+
 @app.route('/fonts', defaults={'path': ''})
 @app.route('/fonts/<path:path>')
 def get_fonts(path):  # pragma: no cover
