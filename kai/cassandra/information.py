@@ -1,12 +1,13 @@
 import uuid
 import json
 from typing import List
-from kai.parser.model import Token, JsonSystem, token_from_dict
+from kai.parser.model import Token, token_from_dict
 from kai.tokenizer.tokenizer import token_list_to_string
 from kai.cassandra.cluster import cassy
 from kai.cassandra.model import ATResult
 from kai.cassandra.indexes import read_indexes_with_filter_for_tokens
 from kai.utility.utils import current_datetime_as_string
+from kai.sl.json_serialiser import JsonSystem
 
 
 # save a token list into the system under the given id
@@ -23,9 +24,10 @@ def save_token_list(sentence_id: uuid.UUID, token_list: List[Token], topic: str)
 
 
 # remove a token list from the system
-def delete_token_list(sentence_id: uuid.UUID, topic: str):
+def delete_token_list(sentence_id: uuid.UUID, topic: str) -> str:
     cassy().db_delete("sentence_by_topic", {"topic": topic, "id": sentence_id})
     cassy().db_delete("sentence_by_id", {"id": sentence_id})
+    return "factoid \"" + str(sentence_id) + "\" removed."
 
 
 # read a sentence from the db

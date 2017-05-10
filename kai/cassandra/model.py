@@ -72,12 +72,11 @@ class IndexMatch:
 
 # a return result for the service layer
 class ATResult:
-    def __init__(self, text: str, timestamp: str, topic: str, sentence_id: uuid.UUID = None, kb_id: uuid.UUID = None):
+    def __init__(self, text: str, timestamp: str, topic: str, sentence_id: uuid.UUID = None):
         self.text = text
         self.timestamp = timestamp
         self.topic = topic
         self.sentence_id = sentence_id
-        self.kb_id = kb_id
 
     def __str__(self):
         return self.text + " /topic:" + self.topic + " /time:" + self.timestamp
