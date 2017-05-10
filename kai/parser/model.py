@@ -14,6 +14,31 @@ class Token:
         self.semantic = semantic                # semantic of this object
         self.anaphora = anaphora                # anaphora resolution
 
+    def __str__(self):
+        ret_str = self.text() + " /tag:" + self.tag + " /dep:" + self.dep + " /index:" + str(self.index)
+        if len(self.semantic) > 0:
+            ret_str += " /semantic:" + self.semantic
+        if len(self.anaphora) > 0:
+            ret_str += " /anaphora:" + self.anaphora
+        return ret_str
+
+    def __repr__(self):
+        return self.__str__()
+
+
+# json helper, convert a token using a dict
+def token_from_dict(d):
+    t = Token(d['text'], d['index'], d['tag'], d['dep'], [], '')
+    if "parent" in d:
+        t.ancestor_list = [d['parent']]
+    if "semantic" in d:
+        t.semantic = d['semantic']
+    if "anaphora" in d:
+        t.semantic = d['anaphora']
+    if "syn_id" in d:
+        t.synid = d['syn_id']
+    return t
+
 
 # a sentence is a list of tokens
 class Sentence:
@@ -32,6 +57,12 @@ class Sentence:
             if len(token.semantic) > 0:
                 return token.semantic
         return ""
+
+    def __str__(self):
+        return "[" + '], ['.join([str(token) for token in self.token_list]) + "]"
+
+    def __repr__(self):
+        return self.__str__()
 
 
 # simple json encoder

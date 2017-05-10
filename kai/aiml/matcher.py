@@ -108,7 +108,7 @@ def _match(token_list: List[str], index: int, rule: Aiml, match_list: List[AimlB
 
 # match a list of tokens against possible entries in the aiml system
 # and perform magic value replacement, email is the user's email for those purposes
-def match_token_list(token_list: List[str], email=''):
+def match_token_string_list(token_list: List[str], email=''):
     match_list = []
     filtered_token_list = tk.filter_punctuation(tk.filter_spaces(token_list))
     if len(filtered_token_list) > 0:

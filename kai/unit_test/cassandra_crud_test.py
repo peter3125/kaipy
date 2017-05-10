@@ -49,6 +49,7 @@ class CassandraCrudTest(unittest.TestCase):
 
         self._test_session()  # test db session system
         self._test_indexing()  # test db indexing system
+        self._test_user_interaction()  # test creation of user and user session management
 
         cassandra.db_drop_keyspace()  # done - remove data
 
@@ -58,20 +59,20 @@ class CassandraCrudTest(unittest.TestCase):
         import uuid
 
         guid1 = uuid.uuid4()
-        cs.save(guid1, "a@b.c", "Rock", "de Vocht")
+        cs.save_session(guid1, "a@b.c", "Rock", "de Vocht")
 
-        session = cs.get(guid1)
+        session = cs.get_session(guid1)
         self.assertTrue(session is not None)
         self.assertTrue(session.surname == "de Vocht")
         self.assertTrue(session.first_name == "Rock")
         self.assertTrue(session.email == "a@b.c")
 
-        cs.delete(guid1)
-        session = cs.get(guid1)
+        cs.delete_session(guid1)
+        session = cs.get_session(guid1)
         self.assertTrue(session is None)
 
         guid2 = uuid.uuid4()
-        session_2 = cs.get(guid2)
+        session_2 = cs.get_session(guid2)
         self.assertTrue(session_2 is None)
 
     # test the indexing and unindexing system
@@ -100,3 +101,43 @@ class CassandraCrudTest(unittest.TestCase):
         remove_indexes(sentence_id, "topic")
         result_set_2 = read_indexes_with_filter_for_tokens(token_list, "topic", 0)
         self.assertTrue(len(result_set_2) == 0)
+
+    # test user creation, sign-in and sign-out
+    def _test_user_interaction(self):
+        from kai.sl.user import create_user, sign_in, sign_out, get_session_from_session_id
+        # create a new user
+        user, err_str = create_user("a@b.com", "Rock", "de Vocht", "Password12345", 8)
+        self.assertTrue(len(err_str) == 0)
+        self.assertTrue(user.surname == "de Vocht" and user.first_name == "Rock" and user.email == "a@b.com")
+
+        # fail creating this user twice
+        user2, err_str = create_user("a@b.com", "Other", "Vocht", "Password12347", 8)
+        self.assertTrue(len(user2.email) == 0)
+        self.assertTrue("a user with that email address already exists" in err_str)
+
+        # test we can login with the right password
+        session, err_str = sign_in("a@b.com", "Password12345", 8)
+        self.assertTrue(len(err_str) == 0)
+        self.assertTrue(session.surname == "de Vocht" and session.first_name == "Rock" and session.email == "a@b.com")
+
+        # test we can't login with the wrong email
+        session_4, err_str = sign_in("a@bc.com", "Password12345", 8)
+        self.assertTrue("a user with that email does not exists" in err_str)
+        self.assertTrue(session_4.email == '')
+
+        # test we can get this session item by guid
+        session_2 = get_session_from_session_id(session.session)
+        self.assertTrue(session_2.surname == "de Vocht" and session_2.first_name == "Rock" and session_2.email == "a@b.com")
+
+        # check we can then signout
+        sign_out(session.session)
+
+        # and have no more session
+        session_3 = get_session_from_session_id(session.session)
+        self.assertTrue(session_3 is None)
+
+        # finally check we can't login with the wrong password
+        session, err_str = sign_in("a@b.com", "Password1234512345", 8)
+        self.assertTrue(session.email == '')
+        self.assertTrue("sign-in: password incorrect" in err_str)
+

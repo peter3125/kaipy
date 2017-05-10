@@ -6,18 +6,6 @@ from typing import List
 from cassandra.cluster import Cluster
 
 
-# the active cassandra instance
-cassandra_db = None
-
-def cassy():
-    global cassandra_db
-    return cassandra_db
-
-def set_cassy(db):
-    global cassandra_db
-    cassandra_db = db
-
-
 # Cassandra access;  provide create/drop keyspace with tables, select paginated, delete, and insert
 class Cassandra:
     def __init__(self, config_dict, run_setup = True):
@@ -162,3 +150,22 @@ class Cassandra:
                 logging.error('cassandra drop keyspace error (' + str(ex) + '), waiting 5 seconds')
                 time.sleep(5)
                 error = True
+
+
+# the active cassandra instance
+cassandra_db = None
+
+
+# access cassandra system wide
+def cassy() -> Cassandra:
+    global cassandra_db
+    if cassandra_db is None:
+        raise ValueError("cassandra not set (set_cassy())")
+    return cassandra_db
+
+
+def set_cassy(db: Cassandra):
+    global cassandra_db
+    cassandra_db = db
+
+

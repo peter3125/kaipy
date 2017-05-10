@@ -3,6 +3,10 @@ from typing import List
 from kai.tokenizer.constants import is_whitespace, is_fullstop, is_hyphen
 from kai.tokenizer.constants import is_singlequote, is_doublequote, is_specialcharacter
 from kai.tokenizer.constants import is_punctuation, is_numeric, is_ABC
+from kai.parser.model import Token
+
+no_space_before = {";", "n't", "'s", "'ll", ".", ",", "?", "!", ":", "'m", "'re", ")", "]", "}", "’ve"}
+no_space_after = {"(", "[", "{"}
 
 
 class Tokenizer:
@@ -132,3 +136,29 @@ class Tokenizer:
             if token not in self.punc:
                 new_token_list.append(token)
         return new_token_list
+
+
+# pretty print a sentence of tokens removing spaces where they're not needed as best as possible
+def token_list_to_string(token_list: List[Token]):
+   list = []
+   quote = 0
+   for token in token_list:
+       text = token.text
+       if text in no_space_before:  # remove spaces before the current item?
+           if len(list) > 0 and list[-1] == ' ':
+               list = list[0:-1]
+       if text == '"':  # quote counting
+           quote += 1
+       if text == '"' and quote % 2 == 0:  # end quotes
+           if len(list) > 0 and list[-1] == ' ':
+               list = list[0:-1]
+           list.append(text)
+           list.append(" ")
+       elif text == '"':  # start quote
+           list.append(text)
+       elif text in no_space_after:  # no spaces after this token category
+           list.append(text)
+       else:  # all other items
+           list.append(text)
+           list.append(" ")
+   return ''.join(list)

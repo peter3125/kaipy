@@ -58,6 +58,16 @@ def is_imperative(token_list: List[Token]) -> bool:
     return False
 
 
+# check this set of tokens has verbs in it
+def has_verb(token_list: List[Token]) -> bool:
+    num_verbs = 0
+    if len(token_list) > 1:  # min sentence size
+        for token in token_list:
+            if token.tag.startswith("VB"):
+                num_verbs += 1
+    return num_verbs > 0
+
+
 # the text parser
 class Parser:
     def __init__(self):
