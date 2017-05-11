@@ -11,14 +11,11 @@ var namefrm = new function() {
         var email = $("#txtUsername").val().toLowerCase().trim();
         var password = $("#txtPassword").val().trim();
         if (password.length > 0 && utility.validateEmail(email)) {
-
-            var obj = {'email': email, 'password_hash': password };
-
             $.ajax({
                 url: "/user/signin",
                 type: 'POST',
-                data: JSON.stringify(obj),
-                dataType: 'json',
+                data: {'email': email, 'password': password },
+                dataType: 'application/json;charset=UTF-8',
                 success: function (data, textStatus, jqXHR) {
                     self.session_done(data);
                 },
@@ -87,13 +84,13 @@ var namefrm = new function() {
             utility.showErrorMessage("Please provide a valid email address.");
             return;
         }
-        var obj = {'email': email, 'first_name': first_name, 'surname': surname, 'password_hash': password_1 };
+        var obj = {'email': email, 'first_name': first_name, 'surname': surname, 'password': password_1 };
         // save it
         $.ajax({
             url: "/user/create",
             type: 'POST',
-            data: JSON.stringify(obj),
-            dataType: 'json',
+            data: obj,
+            dataType: 'application/json;charset=UTF-8',
             success: function (data, textStatus, jqXHR) {
                 self.session_done(data);
             },

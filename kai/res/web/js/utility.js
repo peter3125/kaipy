@@ -20,7 +20,7 @@ var utility = new function() {
         var sessionObj = self.getObject("session");
         if (sessionObj && sessionObj.session) {  // tell server to signout
             $.ajax({
-                url: '/user/signout/' + encodeURIComponent(sessionObj.session),
+                url: '/user/signout?session=' + encodeURIComponent(sessionObj.session),
                 type: 'GET',
                 cache: false,
                 dataType: 'json'  // return type

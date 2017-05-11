@@ -119,9 +119,9 @@ var query = new function() {
             var obj = {"result_list": [{"text": "> " + query_str, "topic": name, "timestamp": ""}]};
 
             $.ajax({
-                url: '/ask/' + encodeURIComponent(session),
+                url: '/ask?session=' + encodeURIComponent(session),
                 type: 'POST',
-                data: query_str,
+                data: {'text': query_str},
                 cache: false,
                 dataType: 'json',  // return type
                 success: function (data, textStatus, jqXHR) {
@@ -161,9 +161,9 @@ var query = new function() {
                                        {"text": " ", "topic": "", "timestamp": ""}]};
 
             $.ajax({
-                url: '/teach/' + encodeURIComponent(session),
+                url: '/teach?session=' + encodeURIComponent(session),
                 type: 'POST',
-                data: teach_str,
+                data: {"text": teach_str},
                 cache: false,
                 dataType: 'json',
                 success: function (data, textStatus, jqXHR) {
