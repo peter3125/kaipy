@@ -1,3 +1,4 @@
+import uuid
 from typing import List
 
 
@@ -25,7 +26,7 @@ class Token:
         return self.__str__()
 
 
-# json helper, convert a token using a dict
+# json helper, convert to a token using a dict
 def token_from_dict(d):
     t = Token(d['text'], d['index'], d['tag'], d['dep'], [], '')
     if "parent" in d:
@@ -41,8 +42,10 @@ def token_from_dict(d):
 
 # a sentence is a list of tokens
 class Sentence:
-    def __init__(self, token_list: List[Token]):
+    def __init__(self, id: uuid.UUID, token_list: List[Token], sentence_vec):
+        self.id = id
         self.token_list = token_list
+        self.sentence_vec = sentence_vec
 
     def len(self):
         return len(self.token_list)
@@ -58,8 +61,15 @@ class Sentence:
         return ""
 
     def __str__(self):
-        return "[" + '], ['.join([str(token) for token in self.token_list]) + "]"
+        return "[" + '], ['.join([str(token) for token in self.token_list]) + "] /id:" + str(self.id)
 
     def __repr__(self):
         return self.__str__()
 
+
+# json helper, convert to a sentence using a dict
+def sentence_from_dict(d):
+    token_list = []
+    for token in d['token_list']:
+        token_list.append(token_from_dict(token))
+    return Sentence(uuid.UUID(d['id']), token_list, d['sentence_vec'])

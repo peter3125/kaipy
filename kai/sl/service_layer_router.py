@@ -1,6 +1,5 @@
 import os
 import uuid
-from flask import request, Response
 
 import kai.res
 from kai.sl.user import get_session_from_session_id, create_user, sign_in, sign_out
@@ -87,7 +86,7 @@ def setup_sl_router(app, min_password_length):
             session = get_session_from_session_id(uuid.UUID("{" + session_id_str + "}"))
             factoid_id = uuid.UUID("{" + id + "}")
             if session is not None:
-                return response_msg(kai.sl.teach.delete_token_list(factoid_id, session.get_username()))
+                return response_msg(kai.sl.teach.delete_sentence(factoid_id, session.get_username()))
             else:
                 return response_error("invalid session")
         else:

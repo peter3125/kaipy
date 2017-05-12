@@ -1,3 +1,4 @@
+import uuid
 import logging
 import kai.res
 from typing import List
@@ -89,7 +90,7 @@ class Parser:
             return text
 
     # convert from spacy to the above Token format for each sentence
-    def convert_sentence(self, sent):
+    def _convert_sentence(self, sent):
         token_list = []
         for token in sent:
             ancestors = []
@@ -101,22 +102,24 @@ class Parser:
                 if text in self.semantics:
                     semantic = self.semantics[text]
             token_list.append(Token(text, token.i, token.tag_, token.dep_, ancestors, semantic))
-        return Sentence(token_list)
+        sentence_vec = [float(item) for item in sent.vector]  # convert to ordinary floats and array
+        return Sentence(uuid.uuid4(), token_list, sentence_vec)
 
     # remove spaces from a sentence
-    def remove_spaces(self, sent: Sentence):
-        return Sentence([item for item in sent.token_list if item.text != ' '])
+    def remove_spaces(self, sentence: Sentence):
+        return Sentence(sentence.id, [item for item in sentence.token_list if item.text != ' '], sentence.sentence_vec)
 
     # convert a document to a set of entity tagged, pos tagged, and dependency parsed entities
     def parse_document(self, text) -> List[Sentence]:
         doc = self.en_nlp(text)
         sentence_list = []
         for sent in doc.sents:
-            sentence = self.remove_spaces(self.convert_sentence(sent))
+            sentence = self.remove_spaces(self._convert_sentence(sent))
             sentence_list.append(sentence)
         self.ll.resolve_pronouns(sentence_list)  # resolve anaphora where possible
         return_sentence_list = []
         for sentence in sentence_list:
-            return_sentence_list.append(Sentence(get_longest_word_sequence(sentence.token_list)))
+            return_sentence_list.append(Sentence(sentence.id, get_longest_word_sequence(sentence.token_list),
+                                                 sentence.sentence_vec))
         return return_sentence_list
 

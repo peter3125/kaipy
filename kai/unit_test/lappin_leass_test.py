@@ -1,4 +1,5 @@
 from typing import List
+import uuid
 
 import unittest
 
@@ -29,7 +30,7 @@ class TestLappinLeass(unittest.TestCase):
                 if "anaphora" in token:
                     token_obj.anaphora = token["anaphora"]
                 token_list.append(token_obj)
-            sentence_list.append(Sentence(token_list))
+            sentence_list.append(Sentence(uuid.uuid4(), token_list, [0.0] * 300))
         return sentence_list
 
     # test Lappin Leass algorithm - simple single sentence resolution

@@ -1,4 +1,5 @@
 import json
+import uuid
 from kai.parser.model import Token, Sentence
 from kai.cassandra.model import Session, ATResult
 
@@ -19,7 +20,7 @@ class JsonSystem(json.JSONEncoder):
             if len(obj.semantic) > 0:  robj['semantic'] = obj.semantic
             return robj
         elif isinstance(obj, Sentence):
-            return {'token_list': obj.token_list}
+            return {'token_list': obj.token_list, 'id': str(obj.id), 'sentence_vec': obj.sentence_vec}
         elif isinstance(obj, Session):
             return {'first_name': obj.first_name, 'surname': obj.surname, 'email': obj.email,
                     'session': str(obj.session)}

@@ -6,7 +6,7 @@ from kai.cassandra.logger import log_entry
 from kai.parser.parser import Parser, is_imperative, is_question
 from kai.parser.pronouns import resolve_first_and_second_person
 from kai.cassandra.indexes import get_num_search_tokens
-from kai.cassandra.information import find_token_list
+from kai.cassandra.information import find_sentence_list
 from kai.aiml.matcher import match_token_string_list
 from kai.sl.model import convert_aiml_binding, ATResult
 
@@ -46,6 +46,6 @@ def ask(session: Session, text: str) -> (List[ATResult], str):
 
         # 2. db search
         if get_num_search_tokens(token_list) > 1:
-            ask_teach_result.extend(find_token_list(token_list, username, 0))
+            ask_teach_result.extend(find_sentence_list(token_list, username, 0))
 
     return ask_teach_result, ""

@@ -1,12 +1,4 @@
 /////////////////////////////////////////////
-// knowledge base
-
-create table if not exists <ks>.knowledge_base (
-	id uuid, topic text, json_data text,
-	primary key((topic),id)
-);
-
-/////////////////////////////////////////////
 // users and sessions
 
 create table if not exists <ks>.user (
@@ -43,25 +35,7 @@ create table if not exists <ks>.word_unindex (
 );
 
 /////////////////////////////////////////////
-// topics
-
-create table if not exists <ks>.topic (
-    topic text, body text,
-    primary key(topic)
-);
-
-create table if not exists <ks>.topic_index (
-    word text, tag text, topic text, score double,
-    primary key((word), tag, topic)
-);
-
-create table if not exists <ks>.topic_unindex (
-    word text, tag text, topic text, sentence_id uuid,
-    primary key((topic), word, tag, sentence_id)
-);
-
-/////////////////////////////////////////////
-// sentence and topic grouping
+// sentence and topics
 
 create table if not exists <ks>.sentence_by_topic (
     id uuid, topic text,
@@ -73,34 +47,3 @@ create table if not exists <ks>.sentence_by_id (
     primary key(id)
 );
 
-/////////////////////////////////////////////
-// freebase KB system
-
-create table if not exists <ks>.freebase_tuple (
-    id int,
-    lhs list<int>,
-    predicate int,
-    rhs list<int>,
-    primary key(id)
-);
-
-create table if not exists <ks>.freebase_index (
-    predicate int,
-    word int,
-    tuples list<int>,
-    primary key((predicate, word))
-);
-
-create table if not exists <ks>.freebase_vocab (
-    id int,
-    word text,
-    is_predicate boolean,
-    primary key(id)
-);
-
-create table if not exists <ks>.freebase_word (
-    word text,
-    id int,
-    is_predicate boolean,
-    primary key(word)
-);
